@@ -1,7 +1,7 @@
 {
   "header": {
     "myName": "Laurence Agina",
-    "toggleLanguage": "日本語版",
+    "toggleLanguage": "日本語",
     "home": "Home",
     "projects": "Projects",
     "certifications": "Certifications"
@@ -19,5 +19,9 @@
   },
   "certificationsPage": {
 
+  },
+  "footer": {
+    "english": "EN",
+    "japanese": "JP"
   }
 }

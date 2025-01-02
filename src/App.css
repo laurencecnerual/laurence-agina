@@ -2,6 +2,10 @@ body, h1, h2, p {
   margin: 0;
 }
 
+h1 {
+  font-size: 1.8rem;
+}
+
 div#root {
   height: 100vh;
   display: flex;
@@ -44,4 +48,6 @@ footer {
   justify-content: center;
   gap: 32px;
   border: 1px solid black;
+  align-items: center;
+  padding: 4px 0;
 }
