@@ -7,7 +7,12 @@
     "certifications": "Certifications"
   },
   "homePage": {
-
+    "title": "Hi, I'm Laurence. Welcome to my portfolio website.",
+    "summary": "I'm a bilingual software engineer with knowledge and skills extending into areas such as business analysis and system administration.",
+    "work": "I also have customer-facing experience in Japanese engaging in requirements workshops, conducting product training, and providing technical support.",
+    "skills": "I take pride in my ability to learn new concepts and apply new skills quickly, process tasks efficiently while maintaining accuracy, and prevent rework by being thorough and doing the necessary due diligence upfront.",
+    "education": "I hold a Bachelor of Science degree in Computer Science and I have also graduated from an advanced agile software engineering bootcamp.",
+    "contact": "If you're interested in connecting, please reach out to me on LinkedIn."
   },
   "projectsPage": {
 

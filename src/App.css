@@ -8,12 +8,12 @@ header {
 
 nav {
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   border: 1px solid black;
 }
