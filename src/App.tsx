@@ -17,19 +17,21 @@ function App() {
         <Link to="/">
           <h1>{t('header.myName')}</h1>
         </Link>
-        <button type="button" onClick={toggleLanguage}>Toggle Language</button>
+        <button type="button" onClick={toggleLanguage}>{t('header.toggleLanguage')}</button>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/certifications">Certifications</Link>
+          <Link to="/">{t('header.home')}</Link>
+          <Link to="/projects">{t('header.projects')}</Link>
+          <Link to="/certifications">{t('header.certifications')}</Link>
         </nav>
       </header>
-      <Routes>
-        <Route path="/" element={<h2>Welcome to my portfolio website</h2>} />
-        <Route path="projects" element={<h2>Projects Page</h2>} />
-        <Route path="certifications" element={<h2>Certifications Page</h2>} />
-        <Route path="*" element={<h2>404 Page Not Found</h2>}></Route>
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<h2>Welcome to my portfolio website</h2>} />
+          <Route path="projects" element={<h2>Projects Page</h2>} />
+          <Route path="certifications" element={<h2>Certifications Page</h2>} />
+          <Route path="*" element={<h2>404 Page Not Found</h2>} />
+        </Routes>
+      </main>
       <footer>
         <a href="https://www.linkedin.com/in/laurenceagina/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://github.com/laurencecnerual" target="_blank" rel="noopener noreferrer">GitHub</a>

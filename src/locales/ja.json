@@ -1,5 +1,18 @@
 {
   "header": {
-    "myName": "アギーナ　ローレンス"
+    "myName": "アギーナ　ローレンス",
+    "toggleLanguage": "To English",
+    "home": "ホーム",
+    "projects": "プロジェクト",
+    "certifications": "資格"
+  },
+  "homePage": {
+
+  },
+  "projectsPage": {
+
+  },
+  "certificationsPage": {
+
   }
 }

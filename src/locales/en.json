@@ -1,5 +1,18 @@
 {
   "header": {
-    "myName": "Laurence Agina"
+    "myName": "Laurence Agina",
+    "toggleLanguage": "日本語へ",
+    "home": "Home",
+    "projects": "Projects",
+    "certifications": "Certifications"
+  },
+  "homePage": {
+
+  },
+  "projectsPage": {
+
+  },
+  "certificationsPage": {
+
   }
 }
