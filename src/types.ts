@@ -1,4 +1,4 @@
-type Project = {
+export type Project = {
   title: string;
   summary: string;
   contributions: string[];
@@ -10,7 +10,7 @@ type Project = {
   deploymentURL: string;
 }
 
-type Certification = {
+export type Certification = {
   organization: string;
   title: string;
   summary: string;
