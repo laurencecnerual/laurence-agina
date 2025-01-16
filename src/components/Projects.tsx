@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Project } from "../types.ts";
 import { useTranslation } from 'react-i18next'
+import ProjectCard from "./ProjectCard.tsx";
 
 export default function Projects() {
   const { t, i18n } = useTranslation();
@@ -14,7 +15,9 @@ export default function Projects() {
   return (
     <>
       <h2>Projects Page</h2>
-      { projects.map((project) => project.contributions.map((contribution) => <p>{contribution}</p>)) }
+      <div className="project-list">
+        { projects.map((project) => <ProjectCard key={project.title} project={project}/>) }
+      </div>
     </>
   )
 }

@@ -1,13 +1,14 @@
 export type Project = {
   title: string;
   summary: string;
+  stack: string;
   contributions: string[];
-  role: string;
+  role?: string;
   teamSize: Number;
   startDate: string;
   endDate?: string;
   gitHubURL: string;
-  deploymentURL: string;
+  deploymentURL?: string;
 }
 
 export type Certification = {

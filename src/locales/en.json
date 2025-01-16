@@ -15,7 +15,16 @@
     "contact": "If you're interested in connecting, please reach out to me on LinkedIn."
   },
   "projectsPage": {
-
+    "titleLabel": "Title",
+    "summaryLabel": "Summary",
+    "stackLabel": "Tech Stack",
+    "contributionsLabel": "Contributions",
+    "roleLabel": "Role",
+    "teamSizeLabel": "Team Size",
+    "startDateLabel": "Start Date",
+    "endDateLabel": "End Date",
+    "gitHubURLLabel": "GitHub Repository",
+    "deploymentURLLabel": "Live Link"
   },
   "certificationsPage": {
 
@@ -26,37 +35,49 @@
   },
   "projectData": [
     {
-      "title": "Project 1",
-      "summary": "Summary 1",
-      "contributions": ["Contribution 1.1", "Contribution 1.2", "Contribution 1.3"],
-      "role": "Role 1",
-      "teamSize": 4,
-      "startDate": "November 2024",
-      "endDate": "November 2024",
-      "gitHubURL": "GitHub URL 1",
-      "deploymentURL": "Render URL 1"
+      "title": "Personal Website",
+      "summary": "This portfolio website",
+      "stack": "React, TypeScript, CSS",
+      "contributions": ["Implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made website multi-lingual using i18next", "Deployed on Render"],
+      "teamSize": 1,
+      "startDate": "December 2024",
+      "endDate": "January 2025",
+      "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
+      "deploymentURL": ""
     },
     {
-      "title": "Project 2",
-      "summary": "Summary 2",
-      "contributions": ["Contribution 2.1", "Contribution 2.2", "Contribution 2.3"],
-      "role": "Role 2",
+      "title": "Mugi",
+      "summary": "A multi-lingual, mobile-friendly full-stack web application for seeking and providing pet-sitting services within Japan",
+      "stack": "React, TypeScript, Tailwind CSS, Python, FastAPI, Tortoise ORM, PostgreSQL, Firebase",
+      "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Python, FastAPI, and Tortoise ORM", "Deployed the application’s front-end, back-end, and database on Render", "Resolved defects and added functionality to the front-end using React, TypeScript, and Tailwind CSS"],
+      "role": "Tech Lead",
+      "teamSize": 4,
+      "startDate": "November 2024",
+      "gitHubURL": "https://github.com/orgs/cc-pet-sitter/repositories",
+      "deploymentURL": "https://mugi.pet"
+    },
+    {
+      "title": "VidCat",
+      "summary": "A full-stack web application to peep track of your collection of video games and consoles, as well as the ones you want",
+      "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
+      "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Node.js, Express.js, and Knex.js", "Deployed the application’s front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
+      "teamSize": 1,
+      "startDate": "November 2024",
+      "endDate": "January 2025",
+      "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
+      "deploymentURL": ""
+    },
+    {
+      "title": "CodeTutor",
+      "summary": "A full-stack web application that leverages OpenAI’s ChatGPT to help users learn to code without directly revealing solutions.",
+      "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
+      "contributions": ["Implemented the back-end using Node, Express, and Knex to follow REST best practices", "Deployed the application’s front-end, back-end, and database on Render", "Identified and resolved functional defects in the front-end using React and TypeScript", "Managed the project schedule, task assignment, and resource load"],
+      "role": "Tech Lead",
       "teamSize": 3,
       "startDate": "November 2024",
       "endDate": "November 2024",
-      "gitHubURL": "GitHub URL 2",
-      "deploymentURL": "Render URL 2"
-    },
-    {
-      "title": "Project 3",
-      "summary": "Summary 3",
-      "contributions": ["Contribution 3.1", "Contribution 3.2", "Contribution 3.3"],
-      "role": "Role 3",
-      "teamSize": 1,
-      "startDate": "November 2024",
-      "endDate": "November 2024",
-      "gitHubURL": "GitHub URL 3",
-      "deploymentURL": "Render URL 3"
+      "gitHubURL": "https://github.com/orgs/greenfield-hippos/repositories",
+      "deploymentURL": ""
     }
   ],
   "certificationData": {
