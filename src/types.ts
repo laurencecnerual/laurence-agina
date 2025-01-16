@@ -19,7 +19,7 @@ export type Certification = {
   dateRenewed?: string;
   dateExpiring?: string;
   takenInJapanese: boolean;
-  myScore: Number;
-  maxPossibleScore: Number;
+  myScore?: Number;
+  maxPossibleScore?: Number;
   certURL: string;
 }

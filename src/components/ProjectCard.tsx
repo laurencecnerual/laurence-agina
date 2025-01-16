@@ -5,7 +5,7 @@ type ProjectProps = {
   project: Project
 }
 
-export default function Projects( {project}: ProjectProps ) {
+export default function ProjectsCard( {project}: ProjectProps ) {
   const { t } = useTranslation();
 
   return (

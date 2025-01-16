@@ -15,6 +15,7 @@
     "contact": "If you're interested in connecting, please reach out to me on LinkedIn."
   },
   "projectsPage": {
+    "projectsLabel": "Projects",
     "titleLabel": "Title",
     "summaryLabel": "Summary",
     "stackLabel": "Tech Stack",
@@ -27,7 +28,17 @@
     "deploymentURLLabel": "Live Link"
   },
   "certificationsPage": {
-
+    "certificationsLabel": "Certifications",
+    "titleLabel": "Title",
+    "summaryLabel": "Summary",
+    "organizationLabel": "Organization",
+    "takenInJapaneseLabel": "Exam Taken In Japanese",
+    "dateEarnedLabel": "Date Earned",
+    "dateRenewedLabel": "Date Last Renewed",
+    "dateExpiringLabel": "Expiration Date",
+    "myScoreLabel": "My Score",
+    "maxPossibleScoreLabel": "Max Points",
+    "certURLLabel": "Certificate"
   },
   "footer": {
     "english": "EN",
@@ -58,9 +69,9 @@
     },
     {
       "title": "VidCat",
-      "summary": "A full-stack web application to peep track of your collection of video games and consoles, as well as the ones you want",
+      "summary": "A full-stack web application that leverages RAWG API to keep track of your collection of video games and consoles, as well as the ones you want",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
-      "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Node.js, Express.js, and Knex.js", "Deployed the application’s front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
+      "contributions": ["Designed the schema and seeded the PostgreSQL database using RAWG API", "Implemented the back-end using Node.js, Express.js, and Knex.js", "Deployed the application’s front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
       "teamSize": 1,
       "startDate": "November 2024",
       "endDate": "January 2025",
@@ -80,12 +91,18 @@
       "deploymentURL": ""
     }
   ],
-  "certificationData": {
-    "certification01": {
-      "title": "Certification 1"
-    },
-    "certification02": {
-      "title": "Certification 2"
+  "certificationData": [
+    {
+      "organization": "Organization 1",
+      "title": "Certification 1",
+      "summary": "Summary 1",
+      "dateEarned": "2024/08",
+      "dateRenewed": "2024/09",
+      "dateExpiring": "2026/10",
+      "takenInJapanese": true,
+      "myScore": 90,
+      "maxPossibleScore": 100,
+      "certURL": "PDF URL 1"
     }
-  }
+  ]
 }

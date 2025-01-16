@@ -15,6 +15,7 @@
     "contact": "LinkedInでの繋がりなどは大歓迎です。"
   },
   "projectsPage": {
+    "projectsLabel": "プロジェクト",
     "titleLabel": "プロジェクト名",
     "summaryLabel": "概要",
     "stackLabel": "技術スタック",
@@ -27,7 +28,17 @@
     "deploymentURLLabel": "ホームページURL"
   },
   "certificationsPage": {
-
+    "certificationsLabel": "資格",
+    "titleLabel": "資格名",
+    "summaryLabel": "概要",
+    "organizationLabel": "組織",
+    "takenInJapaneseLabel": "日本語で受験",
+    "dateEarnedLabel": "取得日",
+    "dateRenewedLabel": "最終更新日",
+    "dateExpiringLabel": "有効期限",
+    "myScoreLabel": "点数",
+    "maxPossibleScoreLabel": "最大点数",
+    "certURLLabel": "証明書"
   },
   "footer": {
     "english": "英語",
@@ -58,7 +69,7 @@
     },
     {
       "title": "VidCat",
-      "summary": "ビデオゲームやゲーム機のコレクションを登録できる、フルスタック・ウェブアプリケーション",
+      "summary": "RAWG APIを活用し、お持ちのビデオゲームとゲーム機を登録できる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
       "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Node.js, Express.js, and Knex.js", "Deployed the application's front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
       "teamSize": 1,
@@ -80,12 +91,18 @@
       "deploymentURL": ""
     }
   ],
-  "certificationData": {
-    "certification01": {
-      "title": "資格 1"
-    },
-    "certification02": {
-      "title": "資格 2"
+  "certificationData": [
+    {
+      "organization": "組織 1",
+      "title": "資格 1",
+      "summary": "概要 1",
+      "dateEarned": "2024年08月",
+      "dateRenewed": "2024年09月",
+      "dateExpiring": "2026年10月",
+      "takenInJapanese": true,
+      "myScore": 90,
+      "maxPossibleScore": 100,
+      "certURL": "PDF URL 1"
     }
-  }
+  ]
 }
