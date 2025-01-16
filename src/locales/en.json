@@ -24,14 +24,41 @@
     "english": "EN",
     "japanese": "JP"
   },
-  "projectData": {
-    "project01": {
-      "title": "Project 1"
+  "projectData": [
+    {
+      "title": "Project 1",
+      "summary": "Summary 1",
+      "contributions": ["Contribution 1.1", "Contribution 1.2", "Contribution 1.3"],
+      "role": "Role 1",
+      "teamSize": 4,
+      "startDate": "November 2024",
+      "endDate": "November 2024",
+      "gitHubURL": "GitHub URL 1",
+      "deploymentURL": "Render URL 1"
     },
-    "project02": {
-      "title": "Project 2"
+    {
+      "title": "Project 2",
+      "summary": "Summary 2",
+      "contributions": ["Contribution 2.1", "Contribution 2.2", "Contribution 2.3"],
+      "role": "Role 2",
+      "teamSize": 3,
+      "startDate": "November 2024",
+      "endDate": "November 2024",
+      "gitHubURL": "GitHub URL 2",
+      "deploymentURL": "Render URL 2"
+    },
+    {
+      "title": "Project 3",
+      "summary": "Summary 3",
+      "contributions": ["Contribution 3.1", "Contribution 3.2", "Contribution 3.3"],
+      "role": "Role 3",
+      "teamSize": 1,
+      "startDate": "November 2024",
+      "endDate": "November 2024",
+      "gitHubURL": "GitHub URL 3",
+      "deploymentURL": "Render URL 3"
     }
-  },
+  ],
   "certificationData": {
     "certification01": {
       "title": "Certification 1"

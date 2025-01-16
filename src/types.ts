@@ -4,8 +4,8 @@ export type Project = {
   contributions: string[];
   role: string;
   teamSize: Number;
-  startDate: Date;
-  endDate?: Date;
+  startDate: string;
+  endDate?: string;
   gitHubURL: string;
   deploymentURL: string;
 }
@@ -14,9 +14,9 @@ export type Certification = {
   organization: string;
   title: string;
   summary: string;
-  dateEarned: Date;
-  dateRenewed?: Date;
-  dateExpiring?: Date;
+  dateEarned: string;
+  dateRenewed?: string;
+  dateExpiring?: string;
   takenInJapanese: boolean;
   myScore: Number;
   maxPossibleScore: Number;

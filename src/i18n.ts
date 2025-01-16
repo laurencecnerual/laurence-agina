@@ -9,6 +9,7 @@ i18next
   .use(LanguageDetector)
   .init({
     debug: true,
+    returnObjects: true,
     fallbackLng: "en",
     resources: {
       en: {
