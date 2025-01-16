@@ -23,5 +23,21 @@
   "footer": {
     "english": "EN",
     "japanese": "JP"
+  },
+  "projectData": {
+    "project01": {
+      "title": "Project 1"
+    },
+    "project02": {
+      "title": "Project 2"
+    }
+  },
+  "certificationData": {
+    "certification01": {
+      "title": "Certification 1"
+    },
+    "certification02": {
+      "title": "Certification 2"
+    }
   }
 }
