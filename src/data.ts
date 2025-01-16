@@ -30,7 +30,7 @@ let certifications: Certification[];
 certifications = [
   {
     organization: "Organization 1",
-    title: "Title 1",
+    title: "Certification 1",
     summary: "Summary 1",
     dateEarned: new Date("2024/08"),
     dateRenewed: new Date("2024/09"),
@@ -42,7 +42,7 @@ certifications = [
   },
   {
     organization: "Organization 2",
-    title: "Title 2",
+    title: "Certification 2",
     summary: "Summary 2",
     dateEarned: new Date("2024/09"),
     dateRenewed: new Date("2024/10"),
@@ -53,3 +53,5 @@ certifications = [
     certURL: "PDF URL 2"
   },
 ];
+
+export { projects, certifications };
