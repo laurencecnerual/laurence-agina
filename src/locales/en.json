@@ -105,7 +105,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link"
     },
     {
       "organization": "The Japan Kanji Aptitude Testing Foundation",
@@ -118,7 +118,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link"
     },
     {
       "organization": "Senmon Kyoiku Publishing",
@@ -131,7 +131,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1jeh68Ve20kPeCarjiED4cb452qFhHtHg/view?usp=drive_link"
     }
   ],
   "technicalCertificationData": [
@@ -139,14 +139,183 @@
       "organization": "CompTIA",
       "title": "A+",
       "abbreviation": "",
-      "summary": "TBD",
+      "summary": "Two exams covering hardware, operating systems, software, networking, troubleshooting, security, mobile devices, virtualization & cloud computing, and operational procedures",
+      "dateEarned": "September 2019",
+      "dateRenewed": "August 2024",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Security+",
+      "abbreviation": "",
+      "summary": "An exam covering general security concepts, threats, vulnerabilities & mitigations, security architecutre, security operations, and security program management & oversight",
+      "dateEarned": "June 2020",
+      "dateRenewed": "June 2023",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link"
+    },
+    {
+      "organization": "Axelos",
+      "title": "ITIL 4 Foundation",
+      "abbreviation": "",
+      "summary": "An exam covering an end-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services",
       "dateEarned": "September 2019",
       "dateRenewed": "",
       "dateExpiring": "",
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Network+",
+      "abbreviation": "",
+      "summary": "An exam covering networking concepts, network implementations, network operations, network security, and network troubleshooting",
+      "dateEarned": "October 2020",
+      "dateRenewed": "June 2023",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Server+",
+      "abbreviation": "",
+      "summary": "An exam covering server hardware installation & management, server administration, security & disaster recovery, and troubleshooting",
+      "dateEarned": "November 2020",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Project+",
+      "abbreviation": "",
+      "summary": "An exam covering project management basics, project constraints, communication & change management, and project tools & documention",
+      "dateEarned": "December 2020",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Cloud+",
+      "abbreviation": "",
+      "summary": "An exam covering cloud architecutre, deployment, operations, security, DevOps fundamentals, and troubleshooting",
+      "dateEarned": "January 2021",
+      "dateRenewed": "June 2023",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link"
+    },
+    {
+      "organization": "Information-technology Promotion Agency, Japan (IPA)",
+      "title": "Information Security Management Examination",
+      "abbreviation": "SG",
+      "summary": "Two Japanese national exams covering information security management concepts",
+      "dateEarned": "January 2023",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link"
+    },
+    {
+      "organization": "Information-technology Promotion Agency, Japan (IPA)",
+      "title": "Information Technology Passport Examination",
+      "abbreviation": "IP",
+      "summary": "A Japanese national exam covering the foundations of IT terminology and concepts",
+      "dateEarned": "March 2023",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link"
+    },
+    {
+      "organization": "Information-technology Promotion Agency, Japan (IPA)",
+      "title": "Fundamental Information Technology Engineer Examination",
+      "abbreviation": "IP",
+      "summary": "Two Japanese national exams covering core engineering concepts",
+      "dateEarned": "May 2023",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link"
+    },
+    {
+      "organization": "Scrum.org",
+      "title": "Professional Scrum Master I",
+      "abbreviation": "PSM I",
+      "summary": "An exam covering knowledge of the Scrum framework, the Scrum Master accountabilities and how to apply Scrum",
+      "dateEarned": "June 2024",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link"
+    },
+    {
+      "organization": "Scrum.org",
+      "title": "Professional Scrum Product Owner I",
+      "abbreviation": "PSPO I",
+      "summary": "An exam covering how to bridge the gap between strategy and agile product management in order to create valuable products using Scrum",
+      "dateEarned": "June 2024",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Linux+",
+      "abbreviation": "",
+      "summary": "An exam covering Linux system management, security, scripting, containers & automation, and troubleshooting",
+      "dateEarned": "August 2024",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "DataSys+",
+      "abbreviation": "",
+      "summary": "An example covering database fundamentals, database deployment, data management & maintenance, data & database security, and business continuity",
+      "dateEarned": "September 2024",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link"
     }
   ]
 }

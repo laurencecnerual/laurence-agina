@@ -105,7 +105,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link"
     },
     {
       "organization": "日本漢字能力検定協会",
@@ -118,7 +118,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link"
     },
     {
       "organization": "専門教育出版",
@@ -131,7 +131,7 @@
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1jeh68Ve20kPeCarjiED4cb452qFhHtHg/view?usp=drive_link"
     }
   ],
   "technicalCertificationData": [
@@ -139,14 +139,183 @@
       "organization": "CompTIA",
       "title": "A+",
       "abbreviation": "",
-      "summary": "TBD",
-      "dateEarned": "September 2019",
+      "summary": "TBT-Two exams covering hardware, operating systems, software, networking, troubleshooting, security, mobile devices, virtualization & cloud computing, and operational procedures",
+      "dateEarned": "2019年9月",
+      "dateRenewed": "2024年8月",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Security+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering general security concepts, threats, vulnerabilities & mitigations, security architecutre, security operations, and security program management & oversight",
+      "dateEarned": "2020年6月",
+      "dateRenewed": "2023年6月",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link"
+    },
+    {
+      "organization": "Axelos",
+      "title": "ITIL 4 ファンデーション",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering an end-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services",
+      "dateEarned": "2020年9月",
       "dateRenewed": "",
       "dateExpiring": "",
       "takenInJapanese": false,
       "myScore": null,
       "maxPossibleScore": null,
-      "certURL": "PDF URL 1"
+      "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Network+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering networking concepts, network implementations, network operations, network security, and network troubleshooting",
+      "dateEarned": "2020年10月",
+      "dateRenewed": "2023年6月",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Server+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering server hardware installation & management, server administration, security & disaster recovery, and troubleshooting",
+      "dateEarned": "2020年11月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Project+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering project management basics, project constraints, communication & change management, and project tools & documention",
+      "dateEarned": "2020年12月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Cloud+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering cloud architecutre, deployment, operations, security, DevOps fundamentals, and troubleshooting",
+      "dateEarned": "2021年1月",
+      "dateRenewed": "2023年6月",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link"
+    },
+    {
+      "organization": "情報処理推進機構 (IPA)",
+      "title": "情報セキュリティマネジメント試験",
+      "abbreviation": "SG",
+      "summary": "TBT-Two Japanese national exams covering information security management concepts",
+      "dateEarned": "2023年1月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link"
+    },
+    {
+      "organization": "情報処理推進機構 (IPA)",
+      "title": "ITパスポート試験",
+      "abbreviation": "IP",
+      "summary": "TBT-A Japanese national exam covering the foundations of IT terminology and concepts",
+      "dateEarned": "2023年3月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link"
+    },
+    {
+      "organization": "情報処理推進機構 (IPA)",
+      "title": "基本情報技術者試験",
+      "abbreviation": "IP",
+      "summary": "TBT-Two Japanese national exams covering core engineering concepts",
+      "dateEarned": "2023年5月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": true,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link"
+    },
+    {
+      "organization": "Scrum.org",
+      "title": "Professional Scrum Master I",
+      "abbreviation": "PSM I",
+      "summary": "TBT-An exam covering knowledge of the Scrum framework, the Scrum Master accountabilities and how to apply Scrum",
+      "dateEarned": "2024年6月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link"
+    },
+    {
+      "organization": "Scrum.org",
+      "title": "Professional Scrum Product Owner I",
+      "abbreviation": "PSPO I",
+      "summary": "TBT-An exam covering how to bridge the gap between strategy and agile product management in order to create valuable products using Scrum",
+      "dateEarned": "2024年6月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "Linux+",
+      "abbreviation": "",
+      "summary": "TBT-An exam covering Linux system management, security, scripting, containers & automation, and troubleshooting",
+      "dateEarned": "2024年8月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link"
+    },
+    {
+      "organization": "CompTIA",
+      "title": "DataSys+",
+      "abbreviation": "",
+      "summary": "TBT-An example covering database fundamentals, database deployment, data management & maintenance, data & database security, and business continuity",
+      "dateEarned": "2024年9月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link"
     }
   ]
 }
