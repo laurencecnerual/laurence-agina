@@ -10,7 +10,7 @@ export default function CertificationCard( {certification}: CertificationProps )
 
   return (
     <div className="certification-card">
-      <h3 className="title">{t('certificationsPage.titleLabel')}: {certification.title}</h3>
+      <h4 className="title">{t('certificationsPage.titleLabel')}: {certification.title}{certification.abbreviation && ` (${certification.abbreviation})`}</h4>
       <p className="organization">{t('certificationsPage.organizationLabel')}: {certification.organization}</p>
       <p className="summary">{t('certificationsPage.summaryLabel')}: {certification.summary}</p>
       { certification.takenInJapanese && <p className="takenInJapanese">{t('certificationsPage.takenInJapaneseLabel')}</p>}

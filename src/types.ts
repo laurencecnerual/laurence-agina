@@ -14,6 +14,7 @@ export type Project = {
 export type Certification = {
   organization: string;
   title: string;
+  abbreviation?: string;
   summary: string;
   dateEarned: string;
   dateRenewed?: string;

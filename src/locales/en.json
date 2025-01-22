@@ -29,6 +29,8 @@
   },
   "certificationsPage": {
     "certificationsLabel": "Certifications",
+    "japaneseCertificationsLabel": "Japanese Certifications",
+    "technicalCertificationsLabel": "Technical Certifications",
     "titleLabel": "Title",
     "summaryLabel": "Summary",
     "organizationLabel": "Organization",
@@ -91,17 +93,59 @@
       "deploymentURL": ""
     }
   ],
-  "certificationData": [
+  "japaneseCertificationData": [
     {
-      "organization": "Organization 1",
-      "title": "Certification 1",
-      "summary": "Summary 1",
-      "dateEarned": "2024/08",
-      "dateRenewed": "2024/09",
-      "dateExpiring": "2026/10",
-      "takenInJapanese": true,
-      "myScore": 90,
-      "maxPossibleScore": 100,
+      "organization": "Japanese Educational Exchanges and Services (JEES)",
+      "title": "Japanese Language Proficiency Test N1",
+      "abbreviation": "JLPT N1",
+      "summary": "The highest level of the most sought-after Japanese language proficiency test",
+      "dateEarned": "January 2020",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "PDF URL 1"
+    },
+    {
+      "organization": "The Japan Kanji Aptitude Testing Foundation",
+      "title": "Business Japanese Test J1",
+      "abbreviation": "BJT J1",
+      "summary": "The second-highest level of a Japanese test focusing specifically on the Japanese used in business situations - including honorifics",
+      "dateEarned": "December 2021",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "PDF URL 1"
+    },
+    {
+      "organization": "Senmon Kyoiku Publishing",
+      "title": "Nihongo Achievement Test 1Q",
+      "abbreviation": "NAT 1Q",
+      "summary": "The highest level of a Japanese test modeled after the JLPT",
+      "dateEarned": "November 2023",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
+      "certURL": "PDF URL 1"
+    }
+  ],
+  "technicalCertificationData": [
+    {
+      "organization": "CompTIA",
+      "title": "A+",
+      "abbreviation": "",
+      "summary": "TBD",
+      "dateEarned": "September 2019",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": null,
+      "maxPossibleScore": null,
       "certURL": "PDF URL 1"
     }
   ]
