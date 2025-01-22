@@ -21,6 +21,16 @@ header {
   padding: 0 16px;
 }
 
+div.certification-list, div.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.certification-card, div.project-card {
+  border: 1px solid black;
+}
+
 nav {
   display: flex;
   gap: 24px;
