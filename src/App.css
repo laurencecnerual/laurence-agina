@@ -6,8 +6,12 @@ h1 {
   font-size: 1.8rem;
 }
 
+html, body {
+  height: 100%;
+}
+
 div#root {
-  height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,6 +45,7 @@ main {
   flex-direction: column;
   height: 100%;
   justify-content: flex-start;
+  align-items: center;
   gap: 16px;
   padding-top: 8px;
 }
