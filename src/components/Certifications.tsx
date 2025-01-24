@@ -9,9 +9,9 @@ export default function Certifications() {
   const [technicalCertifications, setTechnicalCertifications] = useState<Certification[]>([]);
 
     useEffect(() => {
-      const japaneseCertificationData: Certification[] = Array.from(t('japaneseCertificationData')) as unknown as Certification[]
+      const japaneseCertificationData: Certification[] = Array.from(t('japaneseCertificationData')) as unknown as Certification[];
       setJapaneseCertifications(japaneseCertificationData);
-      const technicalcertificationData: Certification[] = Array.from(t('technicalCertificationData')) as unknown as Certification[]
+      const technicalcertificationData: Certification[] = Array.from(t('technicalCertificationData')) as unknown as Certification[];
       setTechnicalCertifications(technicalcertificationData);
     }, [i18n.resolvedLanguage])
 

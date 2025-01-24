@@ -6,6 +6,8 @@ import Home from "./components/Home.tsx"
 import Projects from "./components/Projects.tsx"
 import Certifications from "./components/Certifications.tsx"
 import NotFound from "./components/NotFound.tsx"
+import ProjectDetails from './components/ProjectDetails.tsx';
+import CertificationDetails from './components/CertificationDetails.tsx';
 
 function App() {
 
@@ -15,8 +17,10 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects />} />
+          <Route path="projects" element={<Projects />} /> 
+          <Route path="projects/:title" element={<ProjectDetails />} /> 
           <Route path="certifications" element={<Certifications />} />
+          <Route path="certifications/:title" element={<CertificationDetails />} /> 
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

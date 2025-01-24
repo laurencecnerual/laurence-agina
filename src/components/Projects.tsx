@@ -8,7 +8,7 @@ export default function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    const projectData: Project[] = Array.from(t('projectData')) as unknown as Project[]
+    const projectData: Project[] = Array.from(t('projectData')) as unknown as Project[];
     setProjects(projectData);
   }, [i18n.resolvedLanguage]);
 
@@ -16,7 +16,7 @@ export default function Projects() {
     <>
       <h2>{t('projectsPage.projectsLabel')}</h2>
       <div className="project-list">
-        { projects.map((project) => <ProjectCard key={project.title} project={project}/>) }
+        { projects.map((project) => <ProjectCard key={project.title} project={project} />) }
       </div>
     </>
   )

@@ -1,4 +1,5 @@
 export type Project = {
+  slug: string;
   title: string;
   summary: string;
   stack: string;
@@ -12,6 +13,7 @@ export type Project = {
 }
 
 export type Certification = {
+  slug: string;
   organization: string;
   title: string;
   abbreviation?: string;

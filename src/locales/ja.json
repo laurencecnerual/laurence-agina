@@ -48,6 +48,7 @@
   },
   "projectData": [
     {
+      "slug": "personal-website",
       "title": "Personal Website",
       "summary": "本ポートフォリオホームページ",
       "stack": "React, TypeScript, CSS",
@@ -59,6 +60,7 @@
       "deploymentURL": ""
     },
     {
+      "slug": "mugi",
       "title": "Mugi",
       "summary": "日本国内でペットシッター・サービスを要求又は提供できる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Python, FastAPI, Tortoise ORM, PostgreSQL, Firebase",
@@ -70,6 +72,7 @@
       "deploymentURL": "https://mugi.pet"
     },
     {
+      "slug": "vidcat",
       "title": "VidCat",
       "summary": "RAWG APIを活用し、お持ちのビデオゲームとゲーム機を登録できる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
@@ -81,6 +84,7 @@
       "deploymentURL": ""
     },
     {
+      "slug": "codetutor",
       "title": "CodeTutor",
       "summary": "OpenAIのChatGPTを活用し、答えを教えずにソフトウェアエンジニアリングの勉強を支援してくれる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
@@ -95,6 +99,7 @@
   ],
   "japaneseCertificationData": [
     {
+      "slug": "japanese-language-proficiency-test",
       "organization": "日本国際教育支援協会 (JEES)",
       "title": "日本語能力試験１級",
       "abbreviation": "JLPT N1",
@@ -108,6 +113,7 @@
       "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link"
     },
     {
+      "slug": "business-japanese-test",
       "organization": "日本漢字能力検定協会",
       "title": "ビジネス日本語能力テスト１級",
       "abbreviation": "BJT J1",
@@ -121,6 +127,7 @@
       "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link"
     },
     {
+      "slug": "nihongo-achievement-test",
       "organization": "専門教育出版",
       "title": "日本語NAT-TEST１級",
       "abbreviation": "NAT 1Q",
@@ -136,6 +143,7 @@
   ],
   "technicalCertificationData": [
     {
+      "slug": "comptia-a-plus",
       "organization": "CompTIA",
       "title": "A+",
       "abbreviation": "",
@@ -149,6 +157,7 @@
       "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link"
     },
     {
+      "slug": "comptia-security-plus",
       "organization": "CompTIA",
       "title": "Security+",
       "abbreviation": "",
@@ -162,6 +171,7 @@
       "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link"
     },
     {
+      "slug": "itil-foundation",
       "organization": "Axelos",
       "title": "ITIL 4 ファンデーション",
       "abbreviation": "",
@@ -175,6 +185,7 @@
       "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link"
     },
     {
+      "slug": "comptia-network-plus",
       "organization": "CompTIA",
       "title": "Network+",
       "abbreviation": "",
@@ -188,6 +199,7 @@
       "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link"
     },
     {
+      "slug": "comptia-server-plus",
       "organization": "CompTIA",
       "title": "Server+",
       "abbreviation": "",
@@ -201,6 +213,7 @@
       "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link"
     },
     {
+      "slug": "comptia-project-plus",
       "organization": "CompTIA",
       "title": "Project+",
       "abbreviation": "",
@@ -214,6 +227,7 @@
       "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link"
     },
     {
+      "slug": "comptia-cloud-plus",
       "organization": "CompTIA",
       "title": "Cloud+",
       "abbreviation": "",
@@ -227,6 +241,7 @@
       "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link"
     },
     {
+      "slug": "information-security-management",
       "organization": "情報処理推進機構 (IPA)",
       "title": "情報セキュリティマネジメント試験",
       "abbreviation": "SG",
@@ -240,6 +255,7 @@
       "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link"
     },
     {
+      "slug": "it-passport",
       "organization": "情報処理推進機構 (IPA)",
       "title": "ITパスポート試験",
       "abbreviation": "IP",
@@ -253,6 +269,7 @@
       "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link"
     },
     {
+      "slug": "fundamental-it-engineer",
       "organization": "情報処理推進機構 (IPA)",
       "title": "基本情報技術者試験",
       "abbreviation": "IP",
@@ -266,6 +283,7 @@
       "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link"
     },
     {
+      "slug": "professional-scrum-master-i",
       "organization": "Scrum.org",
       "title": "Professional Scrum Master I",
       "abbreviation": "PSM I",
@@ -279,6 +297,7 @@
       "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link"
     },
     {
+      "slug": "professional-scrum-product-owner-i",
       "organization": "Scrum.org",
       "title": "Professional Scrum Product Owner I",
       "abbreviation": "PSPO I",
@@ -292,6 +311,7 @@
       "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link"
     },
     {
+      "slug": "comptia-linux-plus",
       "organization": "CompTIA",
       "title": "Linux+",
       "abbreviation": "",
@@ -305,6 +325,7 @@
       "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link"
     },
     {
+      "slug": "comptia-datasys-plus",
       "organization": "CompTIA",
       "title": "DataSys+",
       "abbreviation": "",
