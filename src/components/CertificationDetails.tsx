@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Certification } from "../types";
 import { useTranslation } from 'react-i18next'
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function CertificationDetails() {
   const { t, i18n } = useTranslation();
@@ -17,6 +17,7 @@ export default function CertificationDetails() {
 
   return (
     <div className="certification-details">
+      <Link to="/certifications"><p>{t('navigation.back')}</p></Link>
       <h2 className="title">{t('certificationsPage.titleLabel')}: {certification?.title}{certification?.abbreviation && ` (${certification?.abbreviation})`}</h2>
       <p className="organization">{t('certificationsPage.organizationLabel')}: {certification?.organization}</p>
       <p className="summary">{t('certificationsPage.summaryLabel')}: {certification?.summary}</p>

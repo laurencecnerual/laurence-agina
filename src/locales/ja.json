@@ -42,6 +42,9 @@
     "maxPossibleScoreLabel": "最大点数",
     "certURLLabel": "証明書"
   },
+  "navigation": {
+    "back": "戻る"
+  },
   "footer": {
     "english": "英語",
     "japanese": "日本語"

@@ -24,7 +24,7 @@ export default function ProjectCard( {project}: ProjectProps ) {
           {project.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
         </ul>
         <p className="gitHubURL">{t('projectsPage.gitHubURLLabel')}: <a href={project.gitHubURL} target="_blank" rel="noopener noreferrer">{project.gitHubURL}</a></p>
-        { project. deploymentURL && <p className="deploymentURL">{t('projectsPage.deploymentURLLabel')}: <a href={project.deploymentURL} target="_blank" rel="noopener noreferrer">{project.deploymentURL}</a></p> }
+        { project.deploymentURL && <p className="deploymentURL">{t('projectsPage.deploymentURLLabel')}: <a href={project.deploymentURL} target="_blank" rel="noopener noreferrer">{project.deploymentURL}</a></p> }
       </div>
     </Link>
   )

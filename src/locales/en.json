@@ -42,6 +42,9 @@
     "maxPossibleScoreLabel": "Max Points",
     "certURLLabel": "Certificate"
   },
+  "navigation": {
+    "back": "Back"
+  },
   "footer": {
     "english": "EN",
     "japanese": "JP"
