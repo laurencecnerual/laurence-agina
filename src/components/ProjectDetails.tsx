@@ -16,13 +16,12 @@ export default function ProjectDetails() {
   return (
     <div className="project-details">
       <Link to="/projects"><p>{t('navigation.back')}</p></Link>
-      <h2 className="title">{t('projectsPage.titleLabel')}: {project?.title}</h2>
+      <h2 className="title">{project?.title}</h2>
+      <p className="summary">{project?.summary}</p>
       { project?.role && <p className="role">{t('projectsPage.roleLabel')}: {project?.role}</p> }
-      <p className="startDate">{t('projectsPage.startDateLabel')}: {project?.startDate}</p>
-      { project?.endDate && <p className="endDate">{t('projectsPage.endDateLabel')}: {project?.endDate}</p> }
-      <p className="summary">{t('projectsPage.summaryLabel')}: {project?.summary}</p>
-      <p className="stack">{t('projectsPage.stackLabel')}: {project?.stack}</p>
       <p className="teamSize">{t('projectsPage.teamSizeLabel')}: {"" + project?.teamSize}</p>
+      <p className="stack">{t('projectsPage.stackLabel')}: {project?.stack}</p>
+      <p className="startDate">{project?.startDate} ~{project?.endDate && ` ${project.endDate}`}</p>
       <p>{t('projectsPage.contributionsLabel')}:</p>
       <ul className="contributions">
         {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
