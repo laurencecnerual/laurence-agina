@@ -40,7 +40,8 @@
     "dateExpiringLabel": "Expiration Date",
     "myScoreLabel": "My Score",
     "maxPossibleScoreLabel": "Max Points",
-    "certURLLabel": "Certificate"
+    "certURLLabel": "Certificate",
+    "points": "points"
   },
   "navigation": {
     "back": "Back"

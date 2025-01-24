@@ -21,7 +21,7 @@ export default function ProjectDetails() {
       { project?.role && <p className="role">{t('projectsPage.roleLabel')}: {project?.role}</p> }
       <p className="teamSize">{t('projectsPage.teamSizeLabel')}: {"" + project?.teamSize}</p>
       <p className="stack">{t('projectsPage.stackLabel')}: {project?.stack}</p>
-      <p className="startDate">{project?.startDate} ~{project?.endDate && ` ${project.endDate}`}</p>
+      <p className="dates">{project?.startDate} ~{project?.endDate && ` ${project.endDate}`}</p>
       <p>{t('projectsPage.contributionsLabel')}:</p>
       <ul className="contributions">
         {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}

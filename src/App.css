@@ -2,9 +2,27 @@ body, h1, h2, h3, h4, p {
   margin: 0;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 h1 {
   font-size: 1.8rem;
 }
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
 
 html, body {
   height: 100%;
@@ -50,12 +68,12 @@ main {
   padding-top: 8px;
 }
 
-h2 {
-  text-align: center;
+main p, h3.title, h4.title {
+  padding: 4px 8px;
 }
 
-main p {
-  padding: 0 8px;
+div.certification-card p.organization {
+  font-size: 0.8rem;
 }
 
 footer {
