@@ -14,9 +14,9 @@ export default function Header() {
   return (
     <header>
       <Link to="/">
-        <h1>{t('header.myName')}</h1>
+        <h1 className={i18n.resolvedLanguage === "ja" ? "japanese" : ""}>{t('header.myName')}</h1>
       </Link>
-      <button type="button" onClick={toggleLanguage}>{t('header.toggleLanguage')}</button>
+      <button type="button" onClick={toggleLanguage} className={i18n.resolvedLanguage === "ja" ? "japanese" : ""}>{t('header.toggleLanguage')}</button>
       <nav>
         <NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}>{t('header.home')}</NavLink>
         <NavLink to="/projects" className={({ isActive }) => isActive ? "active-link" : ""}>{t('header.projects')}</NavLink>
