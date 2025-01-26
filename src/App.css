@@ -87,6 +87,12 @@ header nav a:hover, footer a:hover, a.back-to-list:hover {
   text-decoration: underline;
 }
 
+a.back-to-list {
+  background-color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
 a.active-link {
   font-weight: bold;
 }
@@ -101,7 +107,36 @@ div.certification-card, div.project-card, div.certification-details, div.project
   border-radius: 10px;
   padding: 8px;
   background-color: white;
+}
+
+div.certification-card, div.project-card {
   max-width: 800px;
+}
+
+div.certification-details, div.project-details {
+  width: 800px;
+}
+
+div.project-details {
+  min-height: 400px;
+}
+
+div.certification-details {
+  min-height: 200px;
+}
+
+.certURL, .gitHubURL, .deploymentURL {
+  justify-self: right;
+}
+
+.certURL a, .gitHubURL a, .deploymentURL a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: #0000FF;
+}
+
+.certURL a:visited, .gitHubURL a:visited, .deploymentURL a:visited {
+  color: #800080;
 }
 
 div.certification-card:hover, div.project-card:hover {

@@ -27,8 +27,8 @@ export default function ProjectDetails() {
         <ul className="contributions">
           {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
         </ul>
-        <p className="gitHubURL">{t('projectsPage.gitHubURLLabel')}: <a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{project?.gitHubURL}</a></p>
-        { project?. deploymentURL && <p className="deploymentURL">{t('projectsPage.deploymentURLLabel')}: <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{project?.deploymentURL}</a></p> }
+        <p className="gitHubURL"><a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.gitHubURLLabel')}</a></p>
+        { project?. deploymentURL && <p className="deploymentURL"> <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.deploymentURLLabel')}</a></p> }
       </div>
     </>
   )
