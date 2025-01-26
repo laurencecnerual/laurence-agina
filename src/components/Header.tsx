@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import {Link} from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
 
 
 export default function Header() {
@@ -18,9 +18,9 @@ export default function Header() {
       </Link>
       <button type="button" onClick={toggleLanguage}>{t('header.toggleLanguage')}</button>
       <nav>
-        <Link to="/">{t('header.home')}</Link>
-        <Link to="/projects">{t('header.projects')}</Link>
-        <Link to="/certifications">{t('header.certifications')}</Link>
+        <NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}>{t('header.home')}</NavLink>
+        <NavLink to="/projects" className={({ isActive }) => isActive ? "active-link" : ""}>{t('header.projects')}</NavLink>
+        <NavLink to="/certifications" className={({ isActive }) => isActive ? "active-link" : ""}>{t('header.certifications')}</NavLink>
       </nav>
     </header>
   )

@@ -55,6 +55,27 @@ header {
   padding: 8px 16px;
 }
 
+button {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 7px;
+  background: #3882F6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+header nav a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+a.active-link {
+  font-weight: bold;
+}
+
 div.certification-list, div.project-list {
   display: flex;
   flex-direction: column;
