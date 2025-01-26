@@ -83,7 +83,7 @@ button:active {
   filter: brightness(70%);
 }
 
-header nav a:hover, footer a:hover {
+header nav a:hover, footer a:hover, a.back-to-list:hover {
   text-decoration: underline;
 }
 
@@ -97,7 +97,7 @@ div.certification-list, div.project-list {
   gap: 24px;
 }
 
-div.certification-card, div.project-card {
+div.certification-card, div.project-card, div.certification-details, div.project-details {
   border-radius: 10px;
   padding: 8px;
   background-color: white;
@@ -120,7 +120,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
-  padding-top: 8px;
+  padding-top: 16px;
 }
 
 main p, h3.title, h4.title {
@@ -132,7 +132,7 @@ div.certification-card p.organization {
   font-style: italic;
 }
 
-div.certification-card .title, div.project-card .title {
+h2.title, div.certification-card .title, div.project-card .title {
   font-weight: bold;
 }
 
@@ -142,7 +142,7 @@ footer {
   gap: 48px;
   align-items: center;
   padding: 12px 0;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 div.certification-details, div.certification-list, div.project-details, div.project-list {

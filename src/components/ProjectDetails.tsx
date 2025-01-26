@@ -15,7 +15,7 @@ export default function ProjectDetails() {
 
   return (
     <>
-      <Link to="/projects"><p>{t('navigation.back')}</p></Link>
+      <Link to="/projects" className="back-to-list">{t('navigation.back')}</Link>
       <div className="project-details">
         <h2 className="title">{project?.title}</h2>
         <p className="summary">{project?.summary}</p>

@@ -17,7 +17,7 @@ export default function CertificationDetails() {
 
   return (
     <>
-      <Link to="/certifications"><p>{t('navigation.back')}</p></Link>
+      <Link to="/certifications" className="back-to-list">{t('navigation.back')}</Link>
       <div className="certification-details">
         <h2 className="title">{certification?.title}{certification?.abbreviation && ` (${certification?.abbreviation})`}</h2>
         <p className="summary">{certification?.summary}</p>

@@ -5,12 +5,12 @@ export default function Home() {
 
   return (
     <>
-      <h2>{t('homePage.title')}</h2>
-      <p>{t('homePage.summary')}</p>
-      <p>{t('homePage.work')}</p>
-      <p>{t('homePage.skills')}</p>
-      <p>{t('homePage.education')}</p>
-      <p>{t('homePage.contact')}</p>
+      <h2 className="title">{t('homePage.title')}</h2>
+      <p className="summary">{t('homePage.summary')}</p>
+      <p className="work">{t('homePage.work')}</p>
+      <p className="skills">{t('homePage.skills')}</p>
+      <p className="education">{t('homePage.education')}</p>
+      <p className="contact">{t('homePage.contact')}</p>
     </>
   )
 }
