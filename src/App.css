@@ -79,11 +79,18 @@ a.active-link {
 div.certification-list, div.project-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 
 div.certification-card, div.project-card {
-  border: 1px solid black;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: white;
+  max-width: 800px;
+}
+
+div.certification-card:hover, div.project-card:hover {
+  border: 2px solid #3882F6;
 }
 
 nav {
@@ -107,12 +114,17 @@ main p, h3.title, h4.title {
 
 div.certification-card p.organization {
   font-size: 0.9rem;
+  font-style: italic;
+}
+
+div.certification-card .title, div.project-card .title {
+  font-weight: bold;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 48px;
   align-items: center;
   padding: 12px 0;
   margin-top: 16px;
