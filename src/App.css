@@ -1,10 +1,16 @@
 body, h1, h2, h3, h4, p {
   margin: 0;
+  font-weight: normal;
+}
+
+header, footer {
+  background: #1F2937;
+  color: white;
 }
 
 a, a:visited {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 h1 {
@@ -23,9 +29,16 @@ h4 {
   font-size: 1.2rem;
 }
 
+p {
+  font-size: 1rem;
+}
+
 
 html, body {
   height: 100%;
+  background: #E5E7EB;
+  color: #18202b;
+  font-family: "Assistant", serif;
 }
 
 div#root {
@@ -39,8 +52,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
-  padding: 0 16px;
+  padding: 8px 16px;
 }
 
 div.certification-list, div.project-list {
@@ -73,16 +85,15 @@ main p, h3.title, h4.title {
 }
 
 div.certification-card p.organization {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer {
   display: flex;
   justify-content: center;
   gap: 32px;
-  border: 1px solid black;
   align-items: center;
-  padding: 4px 0;
+  padding: 12px 0;
   margin-top: 16px;
 }
 
