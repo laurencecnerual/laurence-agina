@@ -110,7 +110,12 @@ div.certification-card, div.project-card, div.certification-details, div.project
 }
 
 div.certification-card, div.project-card {
+  border: 2px solid rgba(56,130,246, 0);
   max-width: 800px;
+}
+
+div.certification-card:hover, div.project-card:hover {
+  border-color: #3882F6;
 }
 
 div.certification-details, div.project-details {
@@ -137,10 +142,6 @@ div.certification-details {
 
 .certURL a:visited, .gitHubURL a:visited, .deploymentURL a:visited {
   color: #800080;
-}
-
-div.certification-card:hover, div.project-card:hover {
-  border: 2px solid #3882F6;
 }
 
 nav {
