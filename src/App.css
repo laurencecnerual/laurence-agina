@@ -82,7 +82,8 @@ button {
 }
 
 button.japanese {
-  padding: 6px 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 button:hover {
@@ -201,6 +202,8 @@ div.certification-details, div.certification-list, div.project-details, div.proj
 @media only screen and (max-width: 600px) {
   div.hamburger-menu {
     display: block;
+    min-width: 90px;
+    text-align: right;
   }
 
   .page-link {
@@ -231,5 +234,13 @@ div.certification-details, div.certification-list, div.project-details, div.proj
 
   header a.japanese {
     font-size: 0.9rem;
+  }
+
+  button {
+    padding: 4px 6px;
+  }
+
+  header a h1 {
+    min-width: 90px;
   }
 }
