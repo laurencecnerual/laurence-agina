@@ -34,7 +34,7 @@
     "titleLabel": "Title",
     "summaryLabel": "Summary",
     "organizationLabel": "Organization",
-    "takenInJapaneseLabel": "Exam Taken In Japanese",
+    "takenInJapaneseLabel": "*Exam taken in Japanese",
     "dateEarnedLabel": "Date Earned",
     "dateRenewedLabel": "Date Last Renewed",
     "dateExpiringLabel": "Expiration Date",
@@ -61,7 +61,7 @@
       "startDate": "December 2024",
       "endDate": "January 2025",
       "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
-      "deploymentURL": ""
+      "deploymentURL": "https://laurence-agina.onrender.com/"
     },
     {
       "slug": "mugi",
@@ -180,8 +180,8 @@
       "title": "ITIL 4 Foundation",
       "abbreviation": "",
       "summary": "An exam covering an end-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services",
-      "dateEarned": "September 2019",
-      "dateRenewed": "",
+      "dateEarned": "September 2020",
+      "dateRenewed": "June 2023",
       "dateExpiring": "",
       "takenInJapanese": false,
       "myScore": null,

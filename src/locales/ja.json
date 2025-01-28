@@ -34,7 +34,7 @@
     "titleLabel": "資格名",
     "summaryLabel": "概要",
     "organizationLabel": "組織",
-    "takenInJapaneseLabel": "日本語で受験",
+    "takenInJapaneseLabel": "*日本語で受験",
     "dateEarnedLabel": "取得日",
     "dateRenewedLabel": "最終更新日",
     "dateExpiringLabel": "有効期限",
@@ -61,7 +61,7 @@
       "startDate": "2024年12月",
       "endDate": "2025年1月",
       "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
-      "deploymentURL": ""
+      "deploymentURL": "https://laurence-agina.onrender.com/"
     },
     {
       "slug": "mugi",
@@ -181,7 +181,7 @@
       "abbreviation": "",
       "summary": "TBT-An exam covering an end-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services",
       "dateEarned": "2020年9月",
-      "dateRenewed": "",
+      "dateRenewed": "2023年6月",
       "dateExpiring": "",
       "takenInJapanese": false,
       "myScore": null,

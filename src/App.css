@@ -25,6 +25,10 @@ h2 {
   font-size: 1.6rem;
 }
 
+h2.japanese {
+  font-size: 1.4rem;
+}
+
 h3 {
   font-size: 1.4rem;
 }
@@ -117,8 +121,9 @@ div.certification-card, div.project-card, div.certification-details, div.project
 }
 
 div.certification-card, div.project-card {
-  border: 2px solid rgba(56,130,246, 0);
+  border: 2px solid rgba(56, 130, 246, 0);
   max-width: 800px;
+  box-shadow: 4px 4px rgba(31, 41, 55, 0.4);
 }
 
 div.certification-card:hover, div.project-card:hover {
@@ -160,10 +165,9 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: flex-start;
   align-items: center;
   gap: 16px;
-  padding-top: 16px;
+  padding: 16px 6px 0;
 }
 
 main p, h3.title, h4.title {
@@ -177,6 +181,11 @@ div.certification-card p.organization {
 
 h2.title, div.certification-card .title, div.project-card .title {
   font-weight: bold;
+}
+
+p.role span, p.takenInJapanese {
+  font-weight: 600;
+  color: #28549b;
 }
 
 footer {
@@ -216,10 +225,14 @@ div.certification-details, div.certification-list, div.project-details, div.proj
   }
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   
   h1.japanese {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  header a.japanese {
+    font-size: 0.9rem;
   }
 }

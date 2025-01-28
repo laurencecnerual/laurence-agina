@@ -19,7 +19,7 @@ export default function ProjectDetails() {
       <div className="project-details">
         <h2 className="title">{project?.title}</h2>
         <p className="summary">{project?.summary}</p>
-        { project?.role && <p className="role">{t('projectsPage.roleLabel')}: {project?.role}</p> }
+        { project?.role && <p className="role">{t('projectsPage.roleLabel')}: <span>{project?.role}</span></p> }
         <p className="teamSize">{t('projectsPage.teamSizeLabel')}: {"" + project?.teamSize}</p>
         <p className="stack">{t('projectsPage.stackLabel')}: {project?.stack}</p>
         <p className="dates">{project?.startDate} ~{project?.endDate && ` ${project.endDate}`}</p>

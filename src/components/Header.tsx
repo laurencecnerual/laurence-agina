@@ -44,6 +44,10 @@ export default function Header() {
       classNames += " open-link" // only applicable to mobile view - makes options visible only when menu is open
     }
 
+    if (i18n.resolvedLanguage === "ja") {
+      classNames += " japanese"
+    }
+
     return classNames;
   }
 
