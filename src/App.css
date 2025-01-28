@@ -62,6 +62,12 @@ header {
   padding: 8px 16px;
 }
 
+div.hamburger-menu {
+  cursor: pointer;
+  font-size: 1.4rem;
+  display: none;
+}
+
 button {
   padding: 4px 16px;
   border: none;
@@ -85,6 +91,7 @@ button:active {
 
 header nav a:hover, footer a:hover, a.back-to-list:hover {
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 a.back-to-list {
@@ -183,4 +190,36 @@ footer {
 
 div.certification-details, div.certification-list, div.project-details, div.project-list {
   max-width: 90%
+}
+
+@media only screen and (max-width: 600px) {
+  div.hamburger-menu {
+    display: block;
+  }
+
+  .page-link {
+    display: none;
+  }
+
+  a.open-link {
+    display: block
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+  }
+
+  header {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+  
+  h1.japanese {
+    font-size: 1.2rem;
+  }
 }
