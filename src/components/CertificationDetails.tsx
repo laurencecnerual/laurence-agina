@@ -25,7 +25,7 @@ export default function CertificationDetails() {
         <p className="dateEarned">{t('certificationsPage.dateEarnedLabel')}: {certification?.dateEarned}</p>
         { certification?.dateRenewed && <p className="dateRenewed">{t('certificationsPage.dateRenewedLabel')}: {certification?.dateRenewed}</p> }
         { certification?.dateExpiring && <p className="dateExpiring">{t('certificationsPage.dateExpiringLabel')}: {certification?.dateExpiring}</p> }
-        { certification?.myScore && <p className="score">{"" + certification?.myScore}{certification?.maxPossibleScore && " / " + certification?.maxPossibleScore} {t('certificationsPage.points')}</p> }
+        { Number(certification?.myScore) > 0 && <p className="score">{"" + certification?.myScore}{certification?.maxPossibleScore && " / " + certification?.maxPossibleScore} {t('certificationsPage.points')}</p> }
         { certification?.takenInJapanese && <p className="takenInJapanese">{t('certificationsPage.takenInJapaneseLabel')}</p> }
         <p className="certURL"><a href={certification?.certURL} target="_blank" rel="noopener noreferrer">{t('certificationsPage.certURLLabel')}</a></p>
       </div>
