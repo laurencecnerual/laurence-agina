@@ -104,6 +104,10 @@ a.back-to-list {
   border-radius: 8px;
 }
 
+a.back-to-list, div.certification-details, div.project-details {
+  border: 1px solid rgb(31, 41, 55);
+}
+
 a.active-link {
   font-weight: bold;
 }
@@ -132,14 +136,7 @@ div.certification-card:hover, div.project-card:hover {
 
 div.certification-details, div.project-details {
   width: 800px;
-}
-
-div.project-details {
-  min-height: 400px;
-}
-
-div.certification-details {
-  min-height: 200px;
+  border-width: 2px;
 }
 
 .certURL, .gitHubURL, .deploymentURL {
