@@ -21,6 +21,10 @@ h1.japanese {
   font-size: 1.6rem;
 }
 
+header a h1 {
+  min-width: 256px;
+}
+
 h2 {
   font-size: 1.6rem;
 }
@@ -63,7 +67,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 16px;
+  padding: 10px 16px;
 }
 
 div.hamburger-menu {
@@ -73,7 +77,7 @@ div.hamburger-menu {
 }
 
 button {
-  padding: 4px 16px;
+  padding: 4px 14px;
   border: none;
   border-radius: 7px;
   background: #3882F6;
@@ -84,6 +88,7 @@ button {
 button.japanese {
   padding-top: 6px;
   padding-bottom: 6px;
+  font-size: 0.8rem;
 }
 
 button:hover {
@@ -237,10 +242,15 @@ div.certification-details, div.certification-list, div.project-details, div.proj
   }
 
   button {
-    padding: 4px 6px;
+    padding: 4px 8px;
+  }
+
+  button.japanese {
+    padding-left: 6px;
+    padding-right: 6px;
   }
 
   header a h1 {
-    min-width: 90px;
+    min-width: 180px;
   }
 }
