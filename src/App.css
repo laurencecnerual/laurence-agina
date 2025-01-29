@@ -164,6 +164,18 @@ nav {
   gap: 24px;
 }
 
+div.not-found {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  min-width: 100%;
+}
+
+iframe {
+  min-width: 60%;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -255,5 +267,13 @@ div.certification-details, div.certification-list, div.project-details, div.proj
 
   header a h1 {
     min-width: 180px;
+  }
+
+  h2.japanese {
+    font-size: 1.4rem;
+  }
+
+  iframe {
+    min-width: 95%;
   }
 }

@@ -43,6 +43,9 @@
     "certURLLabel": "Certificate",
     "points": "points"
   },
+  "notFoundPage": {
+    "404": "Is this what you were looking for...?"
+  },
   "navigation": {
     "back": "Back"
   },

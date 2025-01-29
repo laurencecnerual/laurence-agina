@@ -43,6 +43,9 @@
     "certURLLabel": "証明書",
     "points": "点"
   },
+  "notFoundPage": {
+    "404": "お探し物はこちらですか。。。？"
+  },
   "navigation": {
     "back": "戻る"
   },
