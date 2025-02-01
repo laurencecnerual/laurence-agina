@@ -7,11 +7,11 @@
     "certifications": "資格"
   },
   "homePage": {
-    "title": "こんにちは！ローレンスです。ポートフォリオホームページへようこそ！",
+    "title": "こんにちは！ローレンスです。ポートフォリオサイトへようこそ！",
     "summary": "バイリンガル・ソフトウェアエンジニアであり、ビジネスアナリシスやシステム管理の経験もあります。",
-    "work": "日本語で要件定義や、製品の研修、テクニカルサポートなどに携わるクライアントフェーシング経験もあります。",
-    "skills": "新しいコンセプトを学び、新しいスキルを素早く応用する能力と、正確さを保ちながら効率的にタスクを処理する能力、徹底することで手戻りを防ぐ能力を誇りに思っています。",
-    "education": "コンピューターサイエンスの学士号を持ち、上級のアジャイル・ソフトウェアエンジニアリング・ブートキャンプも卒業しました。",
+    "work": "日本語で要件定義や、製品の研修、テクニカルサポートなどに携わる顧客対応業務の経験もあります。",
+    "skills": "新しいコンセプトを学び、新しいスキルを素早く応用する能力と、正確さを保ちながら効率的にタスクを処理する能力、徹底的に見直すことで手戻りを防ぐ能力を誇りに思っています。",
+    "education": "コンピューターサイエンスの学士号を取得し、上級のアジャイル・ソフトウェアエンジニアリング・ブートキャンプも卒業しました。",
     "contact": "LinkedInでの繋がりなどは大歓迎です。"
   },
   "projectsPage": {
@@ -57,7 +57,7 @@
     {
       "slug": "personal-website",
       "title": "Personal Website",
-      "summary": "本ポートフォリオホームページ",
+      "summary": "ポートフォリオサイト（今ご覧になっているホームページ）",
       "stack": "React, TypeScript, CSS",
       "contributions": ["ReactとTypeScript、CSSを活用し、ホームページの全体を実装", "英語のコンテンツを自身で日本語に翻訳し、i18nextの使用でマルチリンガル対応へ", "Renderによるデプロイ"],
       "teamSize": 1,
@@ -69,7 +69,7 @@
     {
       "slug": "mugi",
       "title": "Mugi",
-      "summary": "日本国内でペットシッター・サービスを要求又は提供できる、フルスタック・ウェブアプリケーション",
+      "summary": "日本国内でペットシッターと飼い主のマッチングを提供する、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Python, FastAPI, Tortoise ORM, PostgreSQL, Firebase",
       "contributions": ["PostgreSQLデータベースのスキーマを設計及び作成し、テスト用の初期データをスクリプトで登録", "PythonとFastAPI、Tortoise ORMを活用し、バックエンドを実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "ReactとTypeScript、Tailwind CSSを活用し、フロントエンドの不具合を修正・新規機能を追加"],
       "role": "テックリード",
@@ -93,7 +93,7 @@
     {
       "slug": "codetutor",
       "title": "CodeTutor",
-      "summary": "OpenAIのChatGPTを活用し、答えを教えずにソフトウェアエンジニアリングの勉強を支援してくれる、フルスタック・ウェブアプリケーション",
+      "summary": "OpenAIのChatGPTを活用し、ヒントのみを教えることでソフトウェアエンジニアリングの勉強を支援してくれる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
       "contributions": ["Node.jsとExpress.js、Knex.jsを活用し、RESTのベストプラクティスに従ってバックエンドを実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "ReactとTypeScriptを活用し、フロントエンドの不具合を特定及び修正", "プロジェクトのスケジュールやタスクのアサインを管理"],
       "role": "テックリード",
@@ -110,7 +110,7 @@
       "organization": "日本国際教育支援協会 (JEES)",
       "title": "日本語能力試験１級",
       "abbreviation": "JLPT N1",
-      "summary": "最も目指されている、日本語能力を測る試験の最もレベル高いランク",
+      "summary": "日本語能力を測る試験の最高難易度の試験で、多くの人がこの試験の合格を目標としている",
       "dateEarned": "2020年1月",
       "dateRenewed": "",
       "dateExpiring": "",
@@ -138,7 +138,7 @@
       "organization": "専門教育出版",
       "title": "日本語NAT-TEST１級",
       "abbreviation": "NAT 1Q",
-      "summary": "JLPT（前述参照）に非常に似ている試験の１級",
+      "summary": "JLPT（前述参照）をモデルに作成された試験の１級",
       "dateEarned": "2023年11月",
       "dateRenewed": "",
       "dateExpiring": "",

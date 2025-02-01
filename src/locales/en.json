@@ -57,7 +57,7 @@
     {
       "slug": "personal-website",
       "title": "Personal Website",
-      "summary": "This portfolio website",
+      "summary": "This portfolio website (which you are currently viewing)",
       "stack": "React, TypeScript, CSS",
       "contributions": ["Implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made website multi-lingual using i18next", "Deployed on Render"],
       "teamSize": 1,
