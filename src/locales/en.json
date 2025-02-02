@@ -55,26 +55,15 @@
   },
   "projectData": [
     {
-      "slug": "personal-website",
-      "title": "Personal Website",
-      "summary": "This portfolio website (which you are currently viewing)",
-      "stack": "React, TypeScript, CSS",
-      "contributions": ["Implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made website multi-lingual using i18next", "Deployed on Render"],
-      "teamSize": 1,
-      "startDate": "December 2024",
-      "endDate": "January 2025",
-      "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
-      "deploymentURL": "https://laurence-agina.onrender.com/"
-    },
-    {
       "slug": "mugi",
       "title": "Mugi",
       "summary": "A multi-lingual, mobile-friendly full-stack web application for seeking and providing pet-sitting services within Japan",
       "stack": "React, TypeScript, Tailwind CSS, Python, FastAPI, Tortoise ORM, PostgreSQL, Firebase",
-      "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Python, FastAPI, and Tortoise ORM", "Deployed the application’s front-end, back-end, and database on Render", "Resolved defects and added functionality to the front-end using React, TypeScript, and Tailwind CSS"],
+      "contributions": ["Designed the schema and seeded the PostgreSQL database", "Implemented the back-end using Python, FastAPI, and Tortoise ORM", "Deployed the application's front-end, back-end, and database on Render", "Resolved defects and added functionality to the front-end using React, TypeScript, and Tailwind CSS"],
       "role": "Tech Lead",
       "teamSize": 4,
       "startDate": "November 2024",
+      "endDate": "",
       "gitHubURL": "https://github.com/orgs/cc-pet-sitter/repositories",
       "deploymentURL": "https://mugi.pet"
     },
@@ -86,9 +75,21 @@
       "contributions": ["Designed the schema and seeded the PostgreSQL database using RAWG API", "Implemented the back-end using Node.js, Express.js, and Knex.js", "Deployed the application’s front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
       "teamSize": 1,
       "startDate": "November 2024",
-      "endDate": "January 2025",
+      "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
       "deploymentURL": ""
+    },
+    {
+      "slug": "personal-website",
+      "title": "Personal Website",
+      "summary": "This portfolio website (which you are currently viewing)",
+      "stack": "React, TypeScript, CSS",
+      "contributions": ["Implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made website multi-lingual using i18next", "Deployed on Render"],
+      "teamSize": 1,
+      "startDate": "December 2024",
+      "endDate": "",
+      "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
+      "deploymentURL": "https://laurence-agina.onrender.com/"
     },
     {
       "slug": "codetutor",

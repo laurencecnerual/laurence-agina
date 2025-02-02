@@ -55,18 +55,6 @@
   },
   "projectData": [
     {
-      "slug": "personal-website",
-      "title": "Personal Website",
-      "summary": "ポートフォリオサイト（今ご覧になっているホームページ）",
-      "stack": "React, TypeScript, CSS",
-      "contributions": ["ReactとTypeScript、CSSを活用し、ホームページの全体を実装", "英語のコンテンツを自身で日本語に翻訳し、i18nextの使用でマルチリンガル対応へ", "Renderによるデプロイ"],
-      "teamSize": 1,
-      "startDate": "2024年12月",
-      "endDate": "2025年1月",
-      "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
-      "deploymentURL": "https://laurence-agina.onrender.com/"
-    },
-    {
       "slug": "mugi",
       "title": "Mugi",
       "summary": "日本国内でペットシッターと飼い主のマッチングを提供する、フルスタック・ウェブアプリケーション",
@@ -75,6 +63,7 @@
       "role": "テックリード",
       "teamSize": 4,
       "startDate": "2024年11月",
+      "endDate": "",
       "gitHubURL": "https://github.com/orgs/cc-pet-sitter/repositories",
       "deploymentURL": "https://mugi.pet"
     },
@@ -86,9 +75,21 @@
       "contributions": ["PostgreSQLデータベースのスキーマを設計及び作成をし、テスト用の初期データをスクリプトで登録", "Node.jsとExpress.js、Knex.jsを活用し、バックエンドを実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "Reactと TypeScript、CSSを活用し、フロントエンドを実装"],
       "teamSize": 1,
       "startDate": "2024年11月",
-      "endDate": "2025年1月",
+      "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
       "deploymentURL": ""
+    },
+    {
+      "slug": "personal-website",
+      "title": "Personal Website",
+      "summary": "ポートフォリオサイト（今ご覧になっているホームページ）",
+      "stack": "React, TypeScript, CSS",
+      "contributions": ["ReactとTypeScript、CSSを活用し、ホームページの全体を実装", "英語のコンテンツを自身で日本語に翻訳し、i18nextの使用でマルチリンガル対応へ", "Renderによるデプロイ"],
+      "teamSize": 1,
+      "startDate": "2024年12月",
+      "endDate": "",
+      "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
+      "deploymentURL": "https://laurence-agina.onrender.com/"
     },
     {
       "slug": "codetutor",
@@ -99,7 +100,7 @@
       "role": "テックリード",
       "teamSize": 3,
       "startDate": "2024年11月",
-      "endDate": "2024年11月",
+      "endDate": "",
       "gitHubURL": "https://github.com/orgs/greenfield-hippos/repositories",
       "deploymentURL": ""
     }
