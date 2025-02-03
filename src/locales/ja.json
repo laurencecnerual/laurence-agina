@@ -40,6 +40,7 @@
     "dateExpiringLabel": "有効期限",
     "myScoreLabel": "点数",
     "maxPossibleScoreLabel": "最大点数",
+    "moreInfoURLLabel": "資格について",
     "certURLLabel": "証明書",
     "points": "点"
   },
@@ -118,6 +119,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.jlpt.jp/about/levelsummary.html",
       "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link"
     },
     {
@@ -132,6 +134,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.kanken.or.jp/bjt/about/level_sample.html",
       "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link"
     },
     {
@@ -146,6 +149,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "http://www.nat-test.com/contents/level.html",
       "certURL": "https://drive.google.com/file/d/1jeh68Ve20kPeCarjiED4cb452qFhHtHg/view?usp=drive_link"
     }
   ],
@@ -162,6 +166,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_a/",
       "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link"
     },
     {
@@ -176,6 +181,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_security/",
       "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link"
     },
     {
@@ -190,6 +196,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.axelos.com/certifications/itil-certifications/itil-foundation",
       "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link"
     },
     {
@@ -204,6 +211,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_network/",
       "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link"
     },
     {
@@ -218,6 +226,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_server/",
       "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link"
     },
     {
@@ -232,6 +241,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/additional_professional/comptia_project/",
       "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link"
     },
     {
@@ -246,6 +256,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_cloud/",
       "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link"
     },
     {
@@ -260,6 +271,7 @@
       "takenInJapanese": true,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/sg.html",
       "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link"
     },
     {
@@ -274,13 +286,14 @@
       "takenInJapanese": true,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/ip.html",
       "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link"
     },
     {
       "slug": "fundamental-it-engineer",
       "organization": "情報処理推進機構 (IPA)",
       "title": "基本情報技術者試験",
-      "abbreviation": "IP",
+      "abbreviation": "FE",
       "summary": "システムエンジニアリングの基礎に関する、二つの国家試験",
       "dateEarned": "2023年5月",
       "dateRenewed": "",
@@ -288,6 +301,7 @@
       "takenInJapanese": true,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/fe.html",
       "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link"
     },
     {
@@ -302,6 +316,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.scrum.org/assessments/professional-scrum-master-i-certification",
       "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link"
     },
     {
@@ -316,6 +331,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification",
       "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link"
     },
     {
@@ -330,6 +346,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_linux/",
       "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link"
     },
     {
@@ -344,6 +361,7 @@
       "takenInJapanese": false,
       "myScore": 0,
       "maxPossibleScore": 0,
+      "moreInfoURL": "https://www.comptia.jp/certif/dataalytics/comptia_datasys/",
       "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link"
     }
   ]

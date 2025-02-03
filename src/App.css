@@ -145,17 +145,17 @@ div.certification-details, div.project-details {
   border-width: 2px;
 }
 
-.certURL, .gitHubURL, .deploymentURL {
+.moreInfoURL, .certURL, .gitHubURL, .deploymentURL {
   justify-self: right;
 }
 
-.certURL a, .gitHubURL a, .deploymentURL a {
+.moreInfoURL a, .certURL a, .gitHubURL a, .deploymentURL a {
   text-decoration: underline;
   text-underline-offset: 2px;
   color: #0000FF;
 }
 
-.certURL a:visited, .gitHubURL a:visited, .deploymentURL a:visited {
+.moreInfoURL a:visited, .certURL a:visited, .gitHubURL a:visited, .deploymentURL a:visited {
   color: #800080;
 }
 

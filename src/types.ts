@@ -24,5 +24,6 @@ export type Certification = {
   takenInJapanese: boolean;
   myScore?: Number;
   maxPossibleScore?: Number;
+  moreInfoURL: string
   certURL: string;
 }
