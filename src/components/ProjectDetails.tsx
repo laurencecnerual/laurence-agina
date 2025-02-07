@@ -27,6 +27,7 @@ export default function ProjectDetails() {
         <ul className="contributions">
           {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
         </ul>
+        <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} />
         <p className="gitHubURL"><a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.gitHubURLLabel')}</a></p>
         { project?. deploymentURL && <p className="deploymentURL"> <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.deploymentURLLabel')}</a></p> }
       </div>

@@ -66,7 +66,8 @@
       "startDate": "2024年11月",
       "endDate": "",
       "gitHubURL": "https://github.com/orgs/cc-pet-sitter/repositories",
-      "deploymentURL": "https://mugi.pet"
+      "deploymentURL": "https://mugi.pet",
+      "screenshotURL": "/src/assets/projects/mugi-screenshot-desktop.jpg"
     },
     {
       "slug": "vidcat",
@@ -78,7 +79,8 @@
       "startDate": "2024年11月",
       "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
-      "deploymentURL": "https://vidcat.onrender.com/"
+      "deploymentURL": "https://vidcat.onrender.com/",
+      "screenshotURL": "/src/assets/projects/vidcat-screenshot-desktop.jpg"
     },
     {
       "slug": "personal-website",
@@ -90,7 +92,8 @@
       "startDate": "2024年12月",
       "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
-      "deploymentURL": "https://laurence-agina.onrender.com/"
+      "deploymentURL": "https://laurence-agina.onrender.com/",
+      "screenshotURL": "/src/assets/projects/personal-site-desktop.jpg"
     }
   ],
   "japaneseCertificationData": [

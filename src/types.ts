@@ -10,6 +10,7 @@ export type Project = {
   endDate?: string;
   gitHubURL: string;
   deploymentURL?: string;
+  screenshotURL: string;
 }
 
 export type Certification = {

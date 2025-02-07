@@ -142,7 +142,16 @@ div.certification-card:hover, div.project-card:hover {
 
 div.certification-details, div.project-details {
   width: 800px;
-  border-width: 2px;
+  border-width: 1px;
+}
+
+img.screenshotURL {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border: 2px solid #E5E7EB;
+  border-radius: 10px;
 }
 
 .moreInfoURL, .certURL, .gitHubURL, .deploymentURL {
