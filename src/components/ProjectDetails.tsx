@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Project } from "../types";
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from "react-router-dom";
+import Icon from '@mdi/react';
+import { mdiRocketLaunch, mdiSourceRepositoryMultiple  } from '@mdi/js';
 
 export default function ProjectDetails() {
   const { t, i18n } = useTranslation();
@@ -28,8 +30,8 @@ export default function ProjectDetails() {
           {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
         </ul>
         <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} />
-        <p className="gitHubURL"><a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.gitHubURLLabel')}</a></p>
-        { project?. deploymentURL && <p className="deploymentURL"> <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.deploymentURLLabel')}</a></p> }
+        <p className="gitHubURL"><a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.gitHubURLLabel')} <Icon path={mdiSourceRepositoryMultiple} size={1} /></a></p>
+        { project?. deploymentURL && <p className="deploymentURL"> <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.deploymentURLLabel')} <Icon path={mdiRocketLaunch} size={1} /></a></p> }
       </div>
     </>
   )

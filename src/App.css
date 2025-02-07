@@ -161,11 +161,7 @@ img.screenshotURL {
 .moreInfoURL a, .certURL a, .gitHubURL a, .deploymentURL a {
   text-decoration: underline;
   text-underline-offset: 2px;
-  color: #0000FF;
-}
-
-.moreInfoURL a:visited, .certURL a:visited, .gitHubURL a:visited, .deploymentURL a:visited {
-  color: #800080;
+  color: rgba(0, 0, 255, 0.9);
 }
 
 nav {
