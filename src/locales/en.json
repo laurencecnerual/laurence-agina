@@ -73,12 +73,12 @@
       "title": "VidCat",
       "summary": "A full-stack web application that leverages RAWG API to keep track of your collection of video games and consoles, as well as the ones you want",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
-      "contributions": ["Designed the schema and seeded the PostgreSQL database using RAWG API", "Implemented the back-end using Node.js, TypeScript, Express.js, and Knex.js", "Deployed the application's front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
+      "contributions": ["Designed the schema and seeded the PostgreSQL database using RAWG API", "Implemented the back-end using Node.js, TypeScript, Express.js, and Knex.js", "Implemented authentication using bcrypt and express-session", "Deployed the application's front-end, back-end, and database on Render", "Implemented the front-end using React, TypeScript, and CSS"],
       "teamSize": 1,
       "startDate": "November 2024",
       "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
-      "deploymentURL": ""
+      "deploymentURL": "https://vidcat.onrender.com/"
     },
     {
       "slug": "personal-website",

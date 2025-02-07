@@ -73,12 +73,12 @@
       "title": "VidCat",
       "summary": "RAWG APIを活用し、お持ちのビデオゲームとゲーム機を登録できる、フルスタック・ウェブアプリケーション",
       "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
-      "contributions": ["PostgreSQLデータベースのスキーマを設計及び作成をし、テスト用の初期データをスクリプトで登録", "Node.jsとExpress.js、Knex.jsを活用し、バックエンドを実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "Reactと TypeScript、CSSを活用し、フロントエンドを実装"],
+      "contributions": ["PostgreSQLデータベースのスキーマを設計及び作成をし、テスト用の初期データをスクリプトで登録", "Node.jsとTypeScript、Express.js、Knex.jsを活用し、バックエンドを実装", "bcryptやexpress-sessionを使用し、認証を実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "Reactと TypeScript、CSSを活用し、フロントエンドを実装"],
       "teamSize": 1,
       "startDate": "2024年11月",
       "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/cc-mvp-vidcat",
-      "deploymentURL": ""
+      "deploymentURL": "https://vidcat.onrender.com/"
     },
     {
       "slug": "personal-website",
