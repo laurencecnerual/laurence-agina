@@ -29,6 +29,7 @@ export default function CertificationDetails() {
         { certification?.dateExpiring && <p className="dateExpiring">{t('certificationsPage.dateExpiringLabel')}: {certification?.dateExpiring}</p> }
         { Number(certification?.myScore) > 0 && <p className="score">{"" + certification?.myScore}{certification?.maxPossibleScore && " / " + certification?.maxPossibleScore} {t('certificationsPage.points')}</p> }
         { certification?.takenInJapanese && <p className="takenInJapanese">{t('certificationsPage.takenInJapaneseLabel')}</p> }
+        <img className="logoURL" src={certification?.logoURL} alt={"Screenshot of " + certification?.organization + " " + certification?.title} />
         <p className="moreInfoURL"><a href={certification?.moreInfoURL} target="_blank" rel="noopener noreferrer">{t('certificationsPage.moreInfoURLLabel')} <Icon path={mdiInformation} size={1} /></a></p>
         <p className="certURL"><a href={certification?.certURL} target="_blank" rel="noopener noreferrer">{t('certificationsPage.certURLLabel')} <Icon path={mdiCertificate} size={1} /></a></p>
       </div>

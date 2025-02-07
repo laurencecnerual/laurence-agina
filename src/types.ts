@@ -27,4 +27,5 @@ export type Certification = {
   maxPossibleScore?: Number;
   moreInfoURL: string
   certURL: string;
+  logoURL: string;
 }

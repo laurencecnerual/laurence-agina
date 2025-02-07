@@ -145,13 +145,17 @@ div.certification-details, div.project-details {
   border-width: 1px;
 }
 
-img.screenshotURL {
+img.screenshotURL, img.logoURL {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   border: 2px solid #E5E7EB;
   border-radius: 10px;
+}
+
+img.logoURL {
+  width: 50%;
 }
 
 .moreInfoURL, .certURL, .gitHubURL, .deploymentURL {

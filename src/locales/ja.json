@@ -157,7 +157,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_a/",
-      "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1_uLE8zZW8BUaZgQVu9H1BGui6sfr46QM/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-a.png"
     },
     {
       "slug": "comptia-security-plus",
@@ -172,7 +173,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_security/",
-      "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1cioE4PbVVfdvgDl5U3dJ6OZHIgQfPUr2/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-security.png"
     },
     {
       "slug": "itil-foundation",
@@ -187,7 +189,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.axelos.com/certifications/itil-certifications/itil-foundation",
-      "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1tNDb0k6LPCWa9Ye4eYv0-_sDJ-SSm1XR/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/itil-f.png"
     },
     {
       "slug": "comptia-network-plus",
@@ -202,7 +205,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/core/comptia_network/",
-      "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1yre_v8u-lTi77iDIH8qudpwjxIHQw0zC/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-network.png"
     },
     {
       "slug": "comptia-server-plus",
@@ -217,7 +221,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_server/",
-      "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1l5Hpl40kT9HE8dZnFtjBg_DG9pKU02Eo/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-server.png"
     },
     {
       "slug": "comptia-project-plus",
@@ -232,7 +237,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/additional_professional/comptia_project/",
-      "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1I1bzYLWsP3-CROPG9niwDmAT_CsmkP8V/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-project.png"
     },
     {
       "slug": "comptia-cloud-plus",
@@ -247,7 +253,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_cloud/",
-      "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1F8iUZHZ1LWH3sblf8TPnBcLrP0pKfwwN/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-cloud.png"
     },
     {
       "slug": "information-security-management",
@@ -262,7 +269,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/sg.html",
-      "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1kmbjvGFodz757YAkPc3ELUYMDZ-Iqtgc/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/ipa.jpg"
     },
     {
       "slug": "it-passport",
@@ -277,7 +285,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/ip.html",
-      "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1Ys2QjGeU0XNIsD8JhIXg16DXN7-QtE9C/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/ipa.jpg"
     },
     {
       "slug": "fundamental-it-engineer",
@@ -292,7 +301,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.ipa.go.jp/shiken/kubun/fe.html",
-      "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1imcg9tnQLEh4X8Dk7exEAPatCOuSqew2/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/ipa.jpg"
     },
     {
       "slug": "professional-scrum-master-i",
@@ -307,7 +317,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.scrum.org/assessments/professional-scrum-master-i-certification",
-      "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1frQnCuk3TmGpjomRoOPfC1khqheZ4sSt/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/psm-i.png"
     },
     {
       "slug": "professional-scrum-product-owner-i",
@@ -322,7 +333,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://translate.google.com/translate?hl=ja&sl=auto&tl=ja&u=https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification",
-      "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1mrIGQ5INbUoQK1HT3lwEiGJ9UjTTLTnI/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/pspo-i.png"
     },
     {
       "slug": "comptia-linux-plus",
@@ -337,7 +349,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/infrastructure/comptia_linux/",
-      "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1Efl0Juwt6QK_OCp0S555ee_vqCGOzErr/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-linux.png"
     },
     {
       "slug": "comptia-datasys-plus",
@@ -352,7 +365,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.comptia.jp/certif/dataalytics/comptia_datasys/",
-      "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/comptia-datasys.png"
     }
   ]
 }
