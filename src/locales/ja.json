@@ -91,19 +91,6 @@
       "endDate": "",
       "gitHubURL": "https://github.com/laurencecnerual/laurence-agina",
       "deploymentURL": "https://laurence-agina.onrender.com/"
-    },
-    {
-      "slug": "codetutor",
-      "title": "CodeTutor",
-      "summary": "OpenAIのChatGPTを活用し、ヒントのみを教えることでソフトウェアエンジニアリングの勉強を支援してくれる、フルスタック・ウェブアプリケーション",
-      "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
-      "contributions": ["Node.jsとExpress.js、Knex.jsを活用し、RESTのベストプラクティスに従ってバックエンドを実装", "フロントエンドとバックエンド、データベースをRenderでデプロイ", "ReactとTypeScriptを活用し、フロントエンドの不具合を特定及び修正", "プロジェクトのスケジュールやタスクのアサインを管理"],
-      "role": "テックリード",
-      "teamSize": 3,
-      "startDate": "2024年11月",
-      "endDate": "",
-      "gitHubURL": "https://github.com/orgs/greenfield-hippos/repositories",
-      "deploymentURL": ""
     }
   ],
   "japaneseCertificationData": [
