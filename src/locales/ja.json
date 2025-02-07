@@ -110,7 +110,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.jlpt.jp/about/levelsummary.html",
-      "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1suRQQkaN5MbOndVrGHVg1qTEbcxYEEsQ/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/jlpt.jpg"
     },
     {
       "slug": "business-japanese-test",
@@ -125,7 +126,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "https://www.kanken.or.jp/bjt/about/level_sample.html",
-      "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1P2lCAVPAhNeIZdrPH-xFXKgukki7mXSD/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/bjt.jpg"
     },
     {
       "slug": "nihongo-achievement-test",
@@ -140,7 +142,8 @@
       "myScore": 0,
       "maxPossibleScore": 0,
       "moreInfoURL": "http://www.nat-test.com/contents/level.html",
-      "certURL": "https://drive.google.com/file/d/1jeh68Ve20kPeCarjiED4cb452qFhHtHg/view?usp=drive_link"
+      "certURL": "https://drive.google.com/file/d/1jeh68Ve20kPeCarjiED4cb452qFhHtHg/view?usp=drive_link",
+      "logoURL": "/src/assets/certifications/nat.jpg"
     }
   ],
   "technicalCertificationData": [

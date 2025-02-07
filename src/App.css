@@ -147,8 +147,7 @@ div.certification-details, div.project-details {
 
 img.screenshotURL, img.logoURL {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 8px auto;
   width: 70%;
   border: 2px solid #E5E7EB;
   border-radius: 10px;
@@ -287,5 +286,9 @@ div.certification-details, div.certification-list, div.project-details, div.proj
 
   iframe {
     min-width: 95%;
+  }
+
+  img.screenshotURL, img.logoURL {
+    width: 90%;
   }
 }
