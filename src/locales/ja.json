@@ -85,7 +85,7 @@
       "title": "Personal Website",
       "summary": "ポートフォリオサイト（今ご覧になっているホームページ）",
       "stack": "React, TypeScript, CSS",
-      "contributions": ["ReactとTypeScript、CSSを活用し、ホームページの全体を実装", "英語のコンテンツを自身で日本語に翻訳し、i18nextの使用でマルチリンガル対応へ", "Renderによるデプロイ"],
+      "contributions": ["ReactとTypeScript、CSSを活用し、ホームページの全体を設計及び実装", "英語のコンテンツを自身で日本語に翻訳し、i18nextの使用でマルチリンガル対応へ", "Renderによるデプロイ"],
       "teamSize": 1,
       "startDate": "2024年12月",
       "endDate": "",

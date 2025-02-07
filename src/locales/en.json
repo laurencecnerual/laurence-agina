@@ -85,7 +85,7 @@
       "title": "Personal Website",
       "summary": "This portfolio website (which you are currently viewing)",
       "stack": "React, TypeScript, CSS",
-      "contributions": ["Implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made the website multi-lingual using i18next", "Deployed on Render"],
+      "contributions": ["Designed and implemented the entire website using React, TypeScript, and CSS", "Manually translated all content into Japanese and made the website multi-lingual using i18next", "Deployed on Render"],
       "teamSize": 1,
       "startDate": "December 2024",
       "endDate": "",
