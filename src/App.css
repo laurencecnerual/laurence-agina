@@ -162,6 +162,9 @@ img.screenshotURL {
   text-decoration: underline;
   text-underline-offset: 2px;
   color: rgba(0, 0, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  gap: 4px;
 }
 
 nav {
