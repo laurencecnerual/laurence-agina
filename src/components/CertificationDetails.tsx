@@ -9,6 +9,11 @@ export default function CertificationDetails() {
   const { t, i18n } = useTranslation();
   const { title } = useParams();
   const [certification, setCertification] = useState<Certification>();
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
 
   useEffect (() => {
     const japaneseCertificationData: Certification[] = Array.from(t('japaneseCertificationData')) as unknown as Certification[];
@@ -29,7 +34,11 @@ export default function CertificationDetails() {
         { certification?.dateExpiring && <p className="dateExpiring">{t('certificationsPage.dateExpiringLabel')}: {certification?.dateExpiring}</p> }
         { Number(certification?.myScore) > 0 && <p className="score">{"" + certification?.myScore}{certification?.maxPossibleScore && " / " + certification?.maxPossibleScore} {t('certificationsPage.points')}</p> }
         { certification?.takenInJapanese && <p className="takenInJapanese">{t('certificationsPage.takenInJapaneseLabel')}</p> }
-        <img className="logoURL" src={certification?.logoURL} alt={"Logo for " + certification?.organization + " " + certification?.title} />
+        <img className="logoURL" src={certification?.logoURL} alt={"Logo for " + certification?.organization + " " + certification?.title} onLoad={handleImageLoad}
+          style={{
+            opacity: isLoaded ? 1 : 0,
+            transition: 'opacity 1s ease-in-out',
+          }}/>
         <p className="moreInfoURL"><a href={certification?.moreInfoURL} target="_blank" rel="noopener noreferrer">{t('certificationsPage.moreInfoURLLabel')} <Icon path={mdiInformation} size={1} /></a></p>
         <p className="certURL"><a href={certification?.certURL} target="_blank" rel="noopener noreferrer">{t('certificationsPage.certURLLabel')} <Icon path={mdiCertificate} size={1} /></a></p>
       </div>

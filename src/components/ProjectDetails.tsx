@@ -9,6 +9,11 @@ export default function ProjectDetails() {
   const { t, i18n } = useTranslation();
   const { title } = useParams();
   const [project, setProject] = useState<Project>();
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
 
   useEffect (() => {
     const projectData: Project[] = Array.from(t('projectData')) as unknown as Project[];
@@ -29,7 +34,11 @@ export default function ProjectDetails() {
         <ul className="contributions">
           {project?.contributions.map((contribution, index) => <li key={index}>{contribution}</li>)}
         </ul>
-        <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} />
+        <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} onLoad={handleImageLoad}
+          style={{
+            opacity: isLoaded ? 1 : 0,
+            transition: 'opacity 1s ease-in-out',
+          }}/>
         <p className="gitHubURL"><a href={project?.gitHubURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.gitHubURLLabel')} <Icon path={mdiSourceRepositoryMultiple} size={1} /></a></p>
         { project?. deploymentURL && <p className="deploymentURL"> <a href={project?.deploymentURL} target="_blank" rel="noopener noreferrer">{t('projectsPage.deploymentURLLabel')} <Icon path={mdiRocketLaunch} size={1} /></a></p> }
       </div>
