@@ -5,12 +5,12 @@ export default function Home() {
 
   return (
     <>
-      <h2 className={i18n.resolvedLanguage === "ja" ? " title japanese" : "title"}>{t('homePage.title')}</h2>
-      <p className="summary">{t('homePage.summary')}</p>
-      <p className="work">{t('homePage.work')}</p>
-      <p className="skills">{t('homePage.skills')}</p>
-      <p className="education">{t('homePage.education')}</p>
-      <p className="contact">{t('homePage.contact')}</p>
+      <h2 className={i18n.resolvedLanguage === "ja" ? " title home-text japanese" : "title home-text"}>{t('homePage.title')}</h2>
+      <p className="summary home-text">{t('homePage.summary')}</p>
+      <p className="work home-text">{t('homePage.work')}</p>
+      <p className="skills home-text">{t('homePage.skills')}</p>
+      <p className="education home-text">{t('homePage.education')}</p>
+      <p className="contact home-text">{t('homePage.contact')}</p>
     </>
   )
 }

@@ -53,6 +53,10 @@ h3.tech-cert-subheader {
   margin-top: 40px;
 }
 
+.home-text {
+  text-align: center;
+}
+
 footer a.japanese {
   font-size: 0.9rem;
 }
@@ -298,5 +302,9 @@ div.certification-details, div.certification-list, div.project-details, div.proj
 
   img.screenshotURL, img.logoURL {
     width: 90%;
+  }
+
+  .home-text {
+    text-align: left;
   }
 }
