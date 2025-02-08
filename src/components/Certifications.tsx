@@ -17,12 +17,12 @@ export default function Certifications() {
 
   return (
     <>
-      <h2>{t('certificationsPage.certificationsLabel')}</h2>
-      <h3>{t('certificationsPage.japaneseCertificationsLabel')}</h3>
+      <h2 className="list-header">{t('certificationsPage.certificationsLabel')}</h2>
+      <h3 className="list-subheader">{t('certificationsPage.japaneseCertificationsLabel')}</h3>
       <div className="certification-list">
         { japaneseCertifications.map((certification) => <CertificationCard key={certification.title} certification={certification}/>) }
       </div>
-      <h3>{t('certificationsPage.technicalCertificationsLabel')}</h3>
+      <h3 className="list-subheader tech-cert-subheader">{t('certificationsPage.technicalCertificationsLabel')}</h3>
       <div className="certification-list">
         { technicalCertifications.map((certification) => <CertificationCard key={certification.title} certification={certification}/>) }
       </div>

@@ -45,6 +45,14 @@ p {
   font-size: 1rem;
 }
 
+h2.list-header, h3.list-subheader {
+  font-weight: 600;
+}
+
+h3.tech-cert-subheader {
+  margin-top: 40px;
+}
+
 footer a.japanese {
   font-size: 0.9rem;
 }

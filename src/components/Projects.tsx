@@ -14,7 +14,7 @@ export default function Projects() {
 
   return (
     <>
-      <h2>{t('projectsPage.projectsLabel')}</h2>
+      <h2 className="list-header">{t('projectsPage.projectsLabel')}</h2>
       <div className="project-list">
         { projects.map((project) => <ProjectCard key={project.title} project={project} />) }
       </div>
