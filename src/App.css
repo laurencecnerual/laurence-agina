@@ -173,6 +173,12 @@ img.logoURL {
   justify-self: right;
 }
 
+p.moreInfo {
+  justify-self: right;
+  color: #28549b;
+  padding: 0;
+}
+
 .moreInfoURL a, .certURL a, .gitHubURL a, .deploymentURL a {
   text-decoration: underline;
   text-underline-offset: 2px;

@@ -1,6 +1,8 @@
 import { Project } from "../types";
 import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom";
+import Icon from "@mdi/react";
+import { mdiDotsHorizontalCircleOutline } from "@mdi/js";
 
 type ProjectProps = {
   project: Project
@@ -17,6 +19,7 @@ export default function ProjectCard( {project}: ProjectProps ) {
         { project.role && <p className="role">{t('projectsPage.roleLabel')}: <span>{project.role}</span></p> }
         <p className="teamSize">{t('projectsPage.teamSizeLabel')}: {"" + project.teamSize}</p>
         <p className="stack">{t('projectsPage.stackLabel')}: {project.stack}</p>
+        <p className="moreInfo"><Icon path={ mdiDotsHorizontalCircleOutline } size={1} /></p>
       </div>
     </Link>
   )
