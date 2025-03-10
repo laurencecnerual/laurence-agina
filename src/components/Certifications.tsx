@@ -12,6 +12,7 @@ export default function Certifications() {
       const japaneseCertificationData: Certification[] = Array.from(t('japaneseCertificationData')) as unknown as Certification[];
       setJapaneseCertifications(japaneseCertificationData);
       const technicalcertificationData: Certification[] = Array.from(t('technicalCertificationData')) as unknown as Certification[];
+      technicalcertificationData.reverse();
       setTechnicalCertifications(technicalcertificationData);
     }, [i18n.resolvedLanguage])
 
