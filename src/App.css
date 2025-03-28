@@ -144,7 +144,7 @@ div.certification-card, div.project-card, div.certification-details, div.project
 
 div.certification-card, div.project-card {
   border: 2px solid rgba(56, 130, 246, 0);
-  max-width: 800px;
+  width: 900px;
   box-shadow: 4px 4px rgba(31, 41, 55, 0.4);
 }
 
@@ -152,21 +152,28 @@ div.certification-card:hover, div.project-card:hover {
   border-color: #3882F6;
 }
 
-div.certification-details, div.project-details {
-  width: 800px;
-  border-width: 1px;
+div.certification-details {
+  width: 900px;
+}
+
+div.project-details {
+  width: 1150px;
+}
+
+div.project-details p, ul {
+  font-size: 0.95rem;
 }
 
 img.screenshotURL, img.logoURL {
   display: block;
   margin: 8px auto;
-  width: 70%;
   border: 2px solid #E5E7EB;
   border-radius: 10px;
 }
 
-img.logoURL {
-  width: 50%;
+img.screenshotURL, img.logoURL {
+  max-height: 250px;
+  width: auto;
 }
 
 .moreInfoURL, .certURL, .gitHubURL, .deploymentURL {
@@ -245,7 +252,11 @@ div.certification-details, div.certification-list, div.project-details, div.proj
   max-width: 90%
 }
 
-@media only screen and (max-width: 600px) {
+ul {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 700px) {
   div.hamburger-menu {
     display: block;
     text-align: right;
@@ -306,11 +317,23 @@ div.certification-details, div.certification-list, div.project-details, div.proj
     min-width: 95%;
   }
 
-  img.screenshotURL, img.logoURL {
+  img.screenshotURL {
     width: 90%;
+  }
+
+  img.logoURL {
+    max-width: 90%;
   }
 
   .home-text {
     text-align: left;
+  }
+
+  div.certification-card, div.project-card {
+    max-width: 80vw;
+  }
+
+  div.project-details p, ul {
+    font-size: 0.9rem;
   }
 }
