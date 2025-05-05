@@ -60,7 +60,7 @@
       "title": "Mugi",
       "summary": "A multi-lingual, mobile-friendly full-stack web application for seeking and providing pet-sitting services within Japan",
       "stack": "React, TypeScript, Tailwind CSS, Python, FastAPI, Tortoise ORM, PostgreSQL, Firebase",
-      "contributions": ["Designed the schema and wrote a script to seed the PostgreSQL database with approximately 3,000 test users and accompanying data", "Designed and implemented the back-end using Python, FastAPI, and Tortoise ORM", "Deployed the application's front-end, back-end, and database on Render", "Resolved defects and added functionality to the front-end using React, TypeScript, and Tailwind CSS"],
+      "contributions": ["Designed the schema and wrote a script to seed the PostgreSQL database with approximately 3,000 test users and accompanying data", "Designed and implemented the back-end using Python, FastAPI, and Tortoise ORM", "Implemented real-time messaging using WebSockets", "Deployed the application's front-end, back-end, and database on Render", "Resolved defects and added functionality to the front-end using React, TypeScript, and Tailwind CSS"],
       "role": "Tech Lead",
       "teamSize": 4,
       "startDate": "November 2024",
