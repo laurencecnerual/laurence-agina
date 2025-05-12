@@ -370,6 +370,22 @@
       "moreInfoURL": "https://www.comptia.jp/certif/dataalytics/comptia_datasys/",
       "certURL": "https://drive.google.com/file/d/1_JEHz85lAWFuMEgLg46AhYneyQX71ldu/view?usp=drive_link",
       "logoURL": "/certifications/comptia-datasys.png"
+    },
+    {
+      "slug": "aws-solution-architect-associate",
+      "organization": "Amazon Web Services (AWS)",
+      "title": "Solution Architect Associate",
+      "abbreviation": "SAA",
+      "summary": "AWSクラウドにてセキュリティと、回復性、コスト、パフォーマンスが最適化されたソリューションの設計に関する試験",
+      "dateEarned": "2025年5月",
+      "dateRenewed": "",
+      "dateExpiring": "",
+      "takenInJapanese": false,
+      "myScore": 0,
+      "maxPossibleScore": 0,
+      "moreInfoURL": "https://aws.amazon.com/jp/certification/certified-solutions-architect-associate/",
+      "certURL": "https://drive.google.com/file/d/1623ue0G-EBvlBc5EypYyB7KPRPT9VxN5/view?usp=drive_link",
+      "logoURL": "/certifications/aws-saa.png"
     }
   ]
 }
