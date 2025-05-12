@@ -372,9 +372,9 @@
       "logoURL": "/certifications/comptia-datasys.png"
     },
     {
-      "slug": "aws-solution-architect-associate",
+      "slug": "aws-solutions-architect-associate",
       "organization": "Amazon Web Services (AWS)",
-      "title": "Solution Architect Associate",
+      "title": "Solutions Architect Associate",
       "abbreviation": "SAA",
       "summary": "AWSクラウドにてセキュリティと、回復性、コスト、パフォーマンスが最適化されたソリューションの設計に関する試験",
       "dateEarned": "2025年5月",

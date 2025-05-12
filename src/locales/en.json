@@ -372,9 +372,9 @@
       "logoURL": "/certifications/comptia-datasys.png"
     },
     {
-      "slug": "aws-solution-architect-associate",
+      "slug": "aws-solutions-architect-associate",
       "organization": "Amazon Web Services (AWS)",
-      "title": "Solution Architect Associate",
+      "title": "Solutions Architect Associate",
       "abbreviation": "SAA",
       "summary": "An exam covering the design of secure, resilient, high-performing, and cost-optimized solutions utilizing AWS Cloud",
       "dateEarned": "May 2025",
