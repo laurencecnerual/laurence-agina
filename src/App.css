@@ -184,6 +184,12 @@ img.screenshotURL, img.logoURL {
   width: auto;
 }
 
+img.my-photo {
+  max-width: 40vw;
+  max-height: 40vh;
+  border-radius: 10px;
+}
+
 .moreInfoURL, .certURL, .gitHubURL, .deploymentURL {
   justify-self: right;
 }

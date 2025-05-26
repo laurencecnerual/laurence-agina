@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <h2 className={i18n.resolvedLanguage === "ja" ? " title home-text japanese" : "title home-text"}>{t('homePage.title')}</h2>
+      <img className="my-photo" src="/me.jpg" alt="A photo of me"/>
       <p className="summary home-text">{t('homePage.summary')}</p>
       <p className="work home-text">{t('homePage.work')}</p>
       <p className="skills home-text">{t('homePage.skills')}</p>
