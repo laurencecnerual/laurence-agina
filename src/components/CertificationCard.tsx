@@ -2,6 +2,7 @@ import { Certification } from "../types";
 import { useTranslation } from 'react-i18next'
 import Icon from "@mdi/react";
 import { mdiCertificate, mdiInformation } from "@mdi/js";
+import { useState } from "react";
 
 type CertificationProps = {
   certification: Certification
@@ -9,11 +10,20 @@ type CertificationProps = {
 
 export default function CertificationCard( {certification}: CertificationProps ) {
   const { t } = useTranslation();
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
 
   return (
     <div className="certification-card">
       <div className="image-side">
-        <img className="logoURL" src={certification?.logoURL} alt={"Logo for " + certification?.organization + " " + certification?.title} loading="lazy"/>
+        <img className="logoURL" src={certification?.logoURL} alt={"Logo for " + certification?.organization + " " + certification?.title} loading="lazy" onLoad={handleImageLoad}
+          style={{
+            opacity: isLoaded ? 1 : 0,
+            transition: 'opacity 1s ease-in-out',
+          }}/>
       </div>
       <div className="text-side">
         <div className="main-content">

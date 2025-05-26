@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiDotsHorizontalCircleOutline, mdiSourceRepositoryMultiple, mdiRocketLaunch } from "@mdi/js";
+import { useState } from "react";
 
 type ProjectProps = {
   project: Project
@@ -10,12 +11,21 @@ type ProjectProps = {
 
 export default function ProjectCard( {project}: ProjectProps ) {
   const { t } = useTranslation();
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setIsLoaded(true);
+  };
 
   return (
     <div className="project-card">
       <h3 className="title">{project.title}</h3>
       <p className="summary">{project.summary}</p>
-      <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} loading="lazy"/>
+      <img className="screenshotURL" src={project?.screenshotURL} alt={"Screenshot of " + project?.title} loading="lazy" onLoad={handleImageLoad}
+        style={{
+          opacity: isLoaded ? 1 : 0,
+          transition: 'opacity 1s ease-in-out',
+        }}/>
       { project.role && <p className="role">{t('projectsPage.roleLabel')}: <span>{project.role}</span></p> }
       <p className="teamSize">{t('projectsPage.teamSizeLabel')}: {"" + project.teamSize}</p>
       <p className="stack">{t('projectsPage.stackLabel')}: {project.stack}</p>
