@@ -1,3 +1,5 @@
+// As of 2025-05-26, his component is no longer in use
+
 import { useEffect, useState } from "react";
 import { Certification } from "../types";
 import { useTranslation } from 'react-i18next'

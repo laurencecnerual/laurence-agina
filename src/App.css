@@ -148,7 +148,19 @@ div.certification-card, div.project-card {
   box-shadow: 4px 4px rgba(31, 41, 55, 0.4);
 }
 
-div.certification-card:hover, div.project-card:hover {
+div.certification-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+div.project-card:hover {
   border-color: #3882F6;
 }
 
@@ -331,6 +343,12 @@ ul {
 
   div.certification-card, div.project-card {
     max-width: 80vw;
+  }
+
+  div.certification-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   div.project-details p, ul {
