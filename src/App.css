@@ -160,10 +160,6 @@ div.text-side {
   flex-grow: 1;
 }
 
-div.project-card:hover {
-  border-color: #3882F6;
-}
-
 div.certification-details {
   width: 900px;
 }
@@ -193,9 +189,13 @@ img.screenshotURL, img.logoURL {
 }
 
 p.moreInfo {
-  justify-self: right;
+  justify-self: center;
   color: #28549b;
-  padding: 0;
+}
+
+.moreInfo:hover {
+  color: #3882F6;
+  font-weight: 1000px;
 }
 
 .moreInfoURL a, .certURL a, .gitHubURL a, .deploymentURL a {
