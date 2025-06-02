@@ -73,7 +73,7 @@
       "slug": "vidcat",
       "title": "VidCat",
       "summary": "A full-stack web application leveraging RAWG and OpenAI API to manage and share users' collections of video games and game consoles, as well as generate recommendations",
-      "stack": "React, TypeScript, Tailwind CSS, Node.js, Express.js, Knex.js, PostgreSQL",
+      "stack": "React, TypeScript, CSS, Node.js, Express.js, Knex.js, PostgreSQL",
       "contributions": ["Designed the schema and wrote a script to seed the PostgreSQL database with approximately 20,000 games", "Designed and implemented the back-end using Node.js, TypeScript, Express.js, and Knex.js", "Designed and implemented the front-end using React, TypeScript, and CSS", "Implemented authentication using bcrypt and express-session", "Deployed the application's front-end, back-end, and database on Render"],
       "teamSize": 1,
       "startDate": "November 2024",
